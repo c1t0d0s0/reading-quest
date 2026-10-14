@@ -1,0 +1,1676 @@
+/* 原稿用紙と赤ペンをもとにした見た目。暗い画面では黒板とチョークになる */
+:root {
+  --bg: #eef3ee;
+  --paper: #fdfdfa;
+  --rule: #6aa893;
+  --rule-soft: #c5ddd3;
+  --ink: #1c2a4a;
+  --muted: #566475;
+  --mark: #ffe36e;
+  --mark-soft: #fff5c2;
+  --red: #d63c2c;
+  --red-soft: #fde3df;
+  --on-ink: #fdfdfa;
+  --ui: 'Zen Maru Gothic', 'Hiragino Maru Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+  --hand: 'Klee One', 'UD Digi Kyokasho N-R', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14211c;
+    --paper: #1d2f28;
+    --rule: #4f8a76;
+    --rule-soft: #2f4a40;
+    --ink: #eef1e4;
+    --muted: #a3b3a8;
+    --mark: #8a7417;
+    --mark-soft: #48431f;
+    --red: #ff8d7d;
+    --red-soft: #4d2721;
+    --on-ink: #14211c;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--ui);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+rt {
+  font-size: 0.55em;
+}
+
+/* ---- 共通の部品 ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--on-ink);
+}
+
+.btn-quiet {
+  border-color: transparent;
+  background: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.pos {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.hanamaru {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex: none;
+  fill: none;
+  stroke: var(--red);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ---- ホーム ---- */
+.home {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+}
+
+/* あそびかた・音・記録の保存。せまい画面ではページの下、広い画面では右の列 */
+.home-side {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 1.5rem;
+}
+
+.home-side .settings {
+  margin-top: -0.5rem;
+}
+
+@media (min-width: 64rem) {
+  .home {
+    max-width: 68rem;
+    grid-template-columns: minmax(0, 44rem) minmax(0, 1fr);
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+
+  /* ページを下に送っても、右の列は見えたままにする */
+  .home-side {
+    position: sticky;
+    top: 1.5rem;
+    gap: 1rem;
+    max-height: calc(100dvh - 3rem);
+    overflow-y: auto;
+    /* 1px のわく線が切れないようにする */
+    padding: 1px;
+  }
+
+  .home-side .account,
+  .home-side .howto {
+    padding: 1rem 1.1rem 1.1rem;
+    border-top: 0;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px var(--rule);
+  }
+
+  .home-side .howto ul {
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .home-side .account-note {
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .home-side .settings {
+    margin-top: 0;
+  }
+}
+
+.home h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.6rem, 3vw, 1.25rem);
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.lynx {
+  /* 目や輪郭は、暗い画面でも黒いままにする (文字色に合わせると白目になってしまう) */
+  --lynx-line: #1c2a4a;
+  flex: none;
+  width: clamp(3.25rem, 16vw, 6.5rem);
+}
+
+.lynx svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lynx-fur {
+  fill: #e9bd72;
+}
+
+.lynx-light {
+  fill: #fff6e1;
+}
+
+.lynx-tuft {
+  fill: var(--lynx-line);
+}
+
+.lynx-pink {
+  fill: #f7b3a6;
+}
+
+.lynx-nose {
+  fill: #e0705f;
+}
+
+.lynx-tongue {
+  fill: #f28f86;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lynx-fur {
+    fill: #c9984a;
+  }
+  /* 耳の先のふさ毛は、暗い背景にとけこまないよう茶色にする */
+  .lynx-tuft {
+    fill: #8f6330;
+  }
+  .lynx-light {
+    fill: #f3e6c8;
+  }
+}
+
+.crest {
+  display: grid;
+  --crest: clamp(1.4rem, 6.5vw, 2rem);
+  grid-template-columns: repeat(2, var(--crest));
+  grid-auto-rows: var(--crest);
+  gap: 1px;
+  flex: none;
+}
+
+.crest-cell {
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.crest-cross {
+  background: var(--mark);
+}
+
+.brand {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: clamp(1.75rem, 8.5vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.lead {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.grades {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: -1rem;
+  box-shadow: 0 0 0 1px var(--rule);
+  background: var(--rule);
+}
+
+.grade-ask .grades {
+  margin: 0.75rem 0 0.5rem;
+}
+
+.grade-option {
+  display: grid;
+  justify-items: center;
+  padding: 0.45rem 0.25rem 0.4rem;
+  border: 0;
+  background: var(--paper);
+  cursor: pointer;
+}
+
+.grade-num {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.grade-unit {
+  color: var(--muted);
+  font-size: 0.6875rem;
+  line-height: 1.3;
+}
+
+.grade-option[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+
+.grade-option[aria-pressed='true'] .grade-unit {
+  color: inherit;
+  opacity: 0.8;
+}
+
+.grade-option:focus-visible {
+  outline-offset: -4px;
+  outline-color: var(--red);
+}
+
+.grade-ask {
+  padding: 1.25rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+  border-left: 0.5rem solid var(--rule);
+}
+.daily {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+  border-left: 0.5rem solid var(--rule);
+}
+
+.daily-text {
+  flex: 1 1 14rem;
+}
+
+.daily-date {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+.daily-note {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.hanamaru-daily {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.section-note {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.howto {
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 1rem;
+}
+
+.howto summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.howto ul {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  max-width: 38rem;
+}
+
+/* タイトル画面の、スタンプカードとヤマネコカードへの入り口 */
+.reward-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1rem;
+  margin-top: -1rem;
+  padding: 0.8rem 1.25rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.reward-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ---- スタンプカード ---- */
+.stamp {
+  margin-top: -1rem;
+  padding: 1.1rem 1.25rem 1.25rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.stamp-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.stamp-month {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.stamp-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  max-width: 26rem;
+  margin: 0.6rem auto 0.9rem;
+}
+
+.stamp-weekday {
+  padding-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.stamp-day {
+  position: relative;
+  aspect-ratio: 1;
+  box-shadow: 0 0 0 1px var(--rule-soft);
+}
+
+.stamp-num {
+  position: absolute;
+  top: 6%;
+  left: 10%;
+  color: var(--muted);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stamp-day.is-future .stamp-num {
+  opacity: 0.55;
+}
+
+.stamp-day.is-today {
+  background: var(--mark-soft);
+  box-shadow: 0 0 0 2px var(--ink);
+  z-index: 1;
+}
+
+.stamp-mark {
+  position: absolute;
+  inset: 10%;
+  width: 80%;
+  height: 80%;
+  stroke-width: 4;
+}
+
+.stamp-run {
+  font-weight: 700;
+}
+
+.stamp-rule {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.stamp-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule-soft);
+}
+
+.points {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.points-label {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.points-num {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+/* 画面の左上の「ホーム」ボタン (パズル・スタンプカード・ヤマネコカードで共通) */
+.back.home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.5rem;
+  padding: 0 1rem 0 0.75rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--on-ink);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.home-btn span {
+  font-size: 1.4em;
+  line-height: 1;
+  transform: translateY(-0.06em);
+}
+
+.page-foot {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.stamps-page .bar,
+.stamps-main {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.stamps-main {
+  padding: 0.5rem 1rem 4rem;
+}
+
+.stamps-main .stamp {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- ヤマネコカード ---- */
+.cards-page .bar {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.cards-main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem 4rem;
+}
+
+.cards-lead {
+  color: var(--muted);
+}
+
+.points-big {
+  margin: 0.4rem 0 1.25rem;
+}
+
+.points-big .points-num {
+  font-size: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.25rem, 1fr));
+  gap: 1.25rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  display: grid;
+  gap: 0.4rem;
+  align-content: start;
+  justify-items: center;
+  text-align: center;
+}
+
+.card-face,
+.card-back {
+  width: 100%;
+  aspect-ratio: 120 / 156;
+}
+
+.card-face svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* 裏面は全部のカードで同じ。原稿用紙のマス目のもよう */
+.card-back {
+  display: grid;
+  place-items: center;
+  border-radius: 6.5% / 5%;
+  background-color: #1c2a4a;
+  background-image:
+    linear-gradient(rgb(106 168 147 / 0.45) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(106 168 147 / 0.45) 1px, transparent 1px);
+  background-size: 14px 14px;
+  background-position: center;
+  box-shadow: inset 0 0 0 3px #6aa893, inset 0 0 0 6px #1c2a4a;
+}
+
+.card-price {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: #fdfdfa;
+  color: #1c2a4a;
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.card-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card-short {
+  min-height: 2rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 2rem;
+}
+
+.card-get {
+  min-height: 2rem;
+  padding: 0 0.9rem;
+  font-size: 0.8125rem;
+}
+
+/* ゲットしたカードが、めくれて表になる */
+.card.is-new .card-face {
+  animation: flip 0.7s ease-out both;
+}
+
+@keyframes flip {
+  from {
+    transform: perspective(40rem) rotateY(-180deg);
+    opacity: 0.2;
+  }
+  to {
+    transform: perspective(40rem) rotateY(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.is-new .card-face {
+    animation: none;
+  }
+}
+
+.settings {
+  margin-top: -1.5rem;
+}
+
+.sound-switch {
+  min-height: 2.25rem;
+  font-size: 0.875rem;
+}
+
+.sound-switch[aria-pressed='false'] {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* ログインと記録の保存 */
+.account {
+  display: grid;
+  justify-items: start;
+  gap: 0.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule-soft);
+}
+
+.account-note {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  max-width: 38rem;
+}
+
+.account-state {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+}
+
+.account-status {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.account-status.is-offline,
+.account-error {
+  color: var(--red);
+  font-size: 0.875rem;
+}
+
+.account-error:empty {
+  display: none;
+}
+
+/* ---- 画面の上の帯 (読む画面・スタンプカード・ヤマネコカードなどで共通) ---- */
+.bar {
+  flex: none;
+  display: grid;
+  /* 長い題名は、まん中で折り返す (左右のボタンと問題の数は、はみ出さない) */
+  grid-template-columns: minmax(max-content, 1fr) minmax(0, auto) minmax(max-content, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.75rem;
+}
+
+.bar h1 {
+  min-width: 0;
+  font-size: clamp(1.25rem, 5.5vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.back {
+  justify-self: start;
+  padding: 0.35rem 0.5rem 0.35rem 0;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.bar-meta {
+  justify-self: end;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+/* ---- クリアしたときの演出 ---- */
+.fx {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  /* 背景の色は変えない。演出の間も、盤面がそのまま見えている */
+  background: transparent;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.fx-word {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  font-family: var(--hand);
+  font-weight: 600;
+  line-height: 1.1;
+  white-space: nowrap;
+  color: #1c2a4a;
+  /* 白いふちどりで、どんな背景の上でも読めるようにする */
+  -webkit-text-stroke: 0.09em #fff;
+  paint-order: stroke fill;
+  text-shadow:
+    0 0 0.12em #fff,
+    0 0 0.2em #fff,
+    0.07em 0.1em 0 #ffd23f;
+  will-change: transform, opacity;
+}
+
+.fx-char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+.fx-bit,
+.fx-ring {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.fx-star {
+  border-radius: 0;
+  clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%);
+}
+
+.fx-ring {
+  width: 6rem;
+  height: 6rem;
+  /* 細い輪にして、広がるときに画面をおおわないようにする */
+  border: 0.18rem solid #ffd23f;
+}
+
+/* ---- クリア画面 ---- */
+.result {
+  width: min(36rem, calc(100vw - 1.5rem));
+  max-height: calc(100dvh - 2rem);
+  padding: 1.5rem 1.25rem;
+  border: 0;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--rule), 0 1.5rem 3rem rgb(0 0 0 / 0.25);
+}
+
+.result::backdrop {
+  background: rgb(20 33 28 / 0.55);
+}
+
+.result-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result h2 {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+.result-sub {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.result .hanamaru polyline {
+  stroke-dasharray: 1;
+  animation: draw 1.6s ease-out 0.15s both;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .result .hanamaru polyline {
+    animation: none;
+  }
+}
+
+.result-stamp {
+  display: grid;
+  justify-items: start;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--mark-soft);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.result-stamp-title {
+  font-weight: 700;
+}
+
+.result-reward {
+  color: var(--red);
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.result-balance {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.result-stamp .btn {
+  margin-top: 0.35rem;
+}
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  position: sticky;
+  bottom: -1.5rem;
+  margin: 0 -1.25rem -1.5rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--paper);
+  border-top: 1px solid var(--rule-soft);
+}
+
+/* ---- cards.html (デザイン確認用) ---- */
+.cards-preview {
+  padding-top: 2rem;
+}
+
+.cards-preview h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.cards-preview .card-grid {
+  margin-top: 1.25rem;
+}
+
+.card-meta {
+  color: var(--muted);
+  font-size: 0.6875rem;
+  line-height: 1.4;
+}
+
+/* ======== Reading Quest の画面 ======== */
+
+.btn-small {
+  min-height: 2rem;
+  padding: 0 0.8rem;
+  font-size: 0.8125rem;
+}
+
+/* 「ものがたり」「説明文」などの小さな札 */
+.tag {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.15rem 0.6rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+/* ---- ホーム ---- */
+.daily-passage {
+  margin-top: 0.25rem;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
+.daily .meta-line {
+  margin: 0.15rem 0 0.35rem;
+}
+
+.recommend h2 {
+  margin-bottom: 0.6rem;
+}
+
+.pick {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.2rem 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+  text-decoration: none;
+}
+
+.pick:hover {
+  background: var(--mark-soft);
+}
+
+.pick > :not(.pick-go) {
+  grid-column: 1;
+}
+
+.pick-title {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.pick-why {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.pick-go {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+
+@media (max-width: 30rem) {
+  .pick {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .pick-go {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: start;
+    margin-top: 0.4rem;
+  }
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: -1rem;
+}
+
+/* ---- 文章の一らん ---- */
+.library-page .bar,
+.library,
+.record-page .bar,
+.record {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.library,
+.record {
+  display: grid;
+  gap: 0.8rem;
+  padding: 0.5rem 1rem 4rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip {
+  min-height: 2.25rem;
+  padding: 0 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper);
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--on-ink);
+}
+
+.library-count {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.entries {
+  display: grid;
+  gap: 1px;
+  background: var(--rule-soft);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.1rem 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--paper);
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.entry:hover {
+  background: var(--mark-soft);
+}
+
+.entry-title {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.entry .meta-line {
+  grid-column: 1;
+}
+
+.entry-status {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  color: var(--muted);
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+
+.entry.is-read .entry-status {
+  color: var(--red);
+}
+
+.entry.is-playing .entry-status {
+  color: var(--red);
+  font-family: var(--ui);
+  font-size: 0.8125rem;
+}
+
+.hanamaru-entry {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  width: 3.4rem;
+  height: 3.4rem;
+  transform: translateY(-50%);
+  stroke-width: 2;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* ---- 読む画面 ---- */
+.reader-page .bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bg);
+  box-shadow: 0 1px 0 var(--rule-soft);
+}
+
+.reader-loading {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.reader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem 5rem;
+}
+
+.reader-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.view-tools {
+  display: flex;
+  gap: 0.4rem;
+}
+
+/* 本文: 原稿用紙のように、行ごとにうすい罫線を引く */
+.passage {
+  --fs: 1.0625rem;
+  --lh: 2.15;
+  padding: 1.25rem 1.25rem 1rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.passage[data-grade='1'],
+.passage[data-grade='2'] {
+  --fs: 1.1875rem;
+}
+
+.passage[data-size='1'] {
+  --fs: 1.3125rem;
+}
+
+.passage[data-size='2'] {
+  --fs: 1.5625rem;
+}
+
+.passage-title {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.passage-author {
+  color: var(--muted);
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+.passage-body {
+  margin-top: 0.75rem;
+  font-family: var(--hand);
+  font-size: var(--fs);
+  line-height: var(--lh);
+  background-image: linear-gradient(transparent calc(100% - 1px), var(--rule-soft) calc(100% - 1px));
+  background-size: 100% calc(var(--fs) * var(--lh));
+  /* ふりがなで行の高さがずれないよう、ruby の分を行間にふくめる */
+  ruby-position: over;
+}
+
+.passage-body:focus-visible {
+  outline-offset: 4px;
+}
+
+.passage-para {
+  text-indent: 1em;
+}
+
+.passage-heading {
+  margin: 0.5em 0 0;
+  font-family: var(--hand);
+  font-size: calc(var(--fs) * 1.05);
+  font-weight: 600;
+  text-align: center;
+}
+
+.passage-body rt {
+  font-family: var(--ui);
+  font-size: 0.5em;
+  font-weight: 500;
+  /* 行間の中におさめて、ふりがなのある行だけ高くならないようにする (罫線と行がずれないように) */
+  line-height: 1;
+}
+
+.passage mark {
+  color: inherit;
+  background: linear-gradient(transparent 35%, var(--mark) 35%);
+  border-radius: 2px;
+  scroll-margin: 6rem;
+}
+
+.passage-source {
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--rule-soft);
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.passage-note {
+  display: block;
+}
+
+/* たて書き。せまい画面では横にスクロールして読む (右から左へ) */
+.passage.is-tate .passage-body {
+  writing-mode: vertical-rl;
+  /* たて書きの箱は、何もしないと中身の分だけ横に広がるので、はばを親に合わせる */
+  width: 100%;
+  height: min(32rem, 68dvh);
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-image: linear-gradient(to left, transparent calc(100% - 1px), var(--rule-soft) calc(100% - 1px));
+  background-size: calc(var(--fs) * var(--lh)) 100%;
+  background-position: right top;
+  background-attachment: local;
+  padding-bottom: 0.5rem;
+}
+
+.passage.is-tate .passage-heading {
+  margin: 0 0.5em 0 0;
+}
+
+.passage.is-tate mark {
+  background: linear-gradient(to left, transparent 35%, var(--mark) 35%);
+}
+
+/* ---- 問題 ---- */
+.questions-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.questions > .section-note {
+  margin-top: 0.25rem;
+}
+
+.question-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.question {
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+  scroll-margin: 5rem;
+}
+
+.question.is-checking {
+  box-shadow: 0 0 0 2px var(--ink);
+}
+
+.q-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.q-num {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.q-text {
+  margin-top: 0.35rem;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.choices {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.choice {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.5rem 0.9rem 0.5rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.6rem;
+  background: var(--paper);
+  text-align: left;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.choice:not(:disabled):hover {
+  background: var(--mark-soft);
+}
+
+.choice:disabled {
+  cursor: default;
+  color: var(--muted);
+}
+
+.choice-label {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--bg);
+  font-family: var(--hand);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.choice.is-answer {
+  border-color: var(--red);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.choice.is-chosen:not(.is-answer) {
+  border-style: dashed;
+}
+
+.choice .maru {
+  position: absolute;
+  left: 0.1rem;
+  top: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  transform: translateY(-50%);
+  fill: none;
+  stroke: var(--red);
+  stroke-width: 6;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.batsu {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-52%);
+  color: var(--red);
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.feedback {
+  margin-top: 0.85rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--bg);
+  border-left: 0.3rem solid var(--rule);
+}
+
+.question.is-correct .feedback {
+  border-left-color: var(--red);
+}
+
+.feedback-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+}
+
+.feedback-head b {
+  color: var(--red);
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.375rem;
+}
+
+.question.is-wrong .feedback-head b {
+  color: var(--muted);
+}
+
+.explain-title {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.explain {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+}
+
+.check-evidence {
+  margin-top: 0.6rem;
+  border-color: var(--mark);
+  background: var(--mark-soft);
+}
+
+.reader-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+/* 本文で手がかりをたしかめたあと、問題にもどるボタン (せまい画面だけ) */
+.back-to-q {
+  position: fixed;
+  left: 50%;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 20;
+  transform: translateX(-50%);
+  box-shadow: 0 0.4rem 1.2rem rgb(0 0 0 / 0.25);
+}
+
+.back-to-q[hidden] {
+  display: none;
+}
+
+/* 広い画面: 左に本文、右に問題。それぞれ別にスクロールする */
+@media (min-width: 62.5rem) {
+  .reader {
+    max-width: 82rem;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .reader-text {
+    position: sticky;
+    top: 3.6rem;
+    height: calc(100dvh - 4.4rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reader-text .passage {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+  }
+
+  .passage.is-tate {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .passage.is-tate .passage-body {
+    flex: 1;
+    height: auto;
+    min-height: 0;
+  }
+
+  .back-to-q {
+    display: none;
+  }
+}
+
+/* ---- おわったとき ---- */
+.result-score {
+  margin-top: 0.15rem;
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* ---- きろく ---- */
+.record h2 {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.stat {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+
+.stat-label {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.stat-num {
+  font-family: var(--hand);
+  font-weight: 600;
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.rates,
+.by-grade {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.rate,
+.by-grade li {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 11rem) minmax(0, 1fr) 3rem;
+  align-items: center;
+  gap: 0.15rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.by-grade li {
+  grid-template-columns: 4rem minmax(0, 1fr) 4rem;
+}
+
+.rate-bar {
+  height: 0.8rem;
+  border-radius: 999px;
+  background: var(--rule-soft);
+  overflow: hidden;
+}
+
+.rate-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--rule);
+}
+
+.rate.is-weak .rate-fill {
+  background: var(--red);
+}
+
+.rate.is-weak .rate-label {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.rate-num {
+  font-weight: 700;
+  text-align: right;
+}
+
+.rate-count {
+  grid-column: 2 / -1;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.by-grade .rate-count {
+  grid-column: auto;
+  text-align: right;
+}
+
+.weak-note {
+  margin-top: 0.75rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--mark-soft);
+  box-shadow: 0 0 0 1px var(--rule);
+  font-weight: 700;
+  font-size: 0.9375rem;
+}

@@ -1,0 +1,3532 @@
+[
+ {
+  "id": "g1-akai-boushi",
+  "grade": 1,
+  "title": "赤い ぼうし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 400,
+  "qtypes": [
+   "reason",
+   "structure",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
+  "id": "g1-ari",
+  "grade": 1,
+  "title": "ありの ぎょうれつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 310,
+  "qtypes": [
+   "content",
+   "reference",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g1-asagao",
+  "grade": 1,
+  "title": "あさがおの かんさつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 330,
+  "qtypes": [
+   "content",
+   "content",
+   "structure",
+   "reason"
+  ]
+ },
+ {
+  "id": "g1-atarashii-kutsu",
+  "grade": 1,
+  "title": "あたらしい くつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 369,
+  "qtypes": [
+   "content",
+   "expression",
+   "feeling",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-futatsu-no-ringo",
+  "grade": 1,
+  "title": "三人と 二つの りんご",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51575.html",
+  "genre": "story",
+  "chars": 650,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g1-ha-no-hanashi",
+  "grade": 1,
+  "title": "はが ぬけたよ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 305,
+  "qtypes": [
+   "vocab",
+   "reason",
+   "connective",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-hajimete-otsukai",
+  "grade": 1,
+  "title": "はじめての おつかい",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 380,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "reason"
+  ]
+ },
+ {
+  "id": "g1-jidosha",
+  "grade": 1,
+  "title": "はたらく 車",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 359,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g1-katatsumuri",
+  "grade": 1,
+  "title": "かたつむりの せなか",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 316,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g1-kaze-to-taiyou",
+  "grade": 1,
+  "title": "かぜと おひさま",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 392,
+  "qtypes": [
+   "content",
+   "reason",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-kitsune-no-kasa",
+  "grade": 1,
+  "title": "きつねの かさ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 351,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "structure"
+  ]
+ },
+ {
+  "id": "g1-kogarashi",
+  "grade": 1,
+  "title": "こがらしの ふく ばん",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51562.html",
+  "genre": "story",
+  "chars": 638,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g1-kuma-hachimitsu",
+  "grade": 1,
+  "title": "くまさんの はちみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 390,
+  "qtypes": [
+   "reason",
+   "content",
+   "reference",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-lynx-nagareboshi",
+  "grade": 1,
+  "title": "リンクと ながれぼし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 412,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-lynx-umi-1",
+  "grade": 1,
+  "title": "リンク、うみへ 行く（前）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g1-lynx-umi",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 343,
+  "qtypes": [
+   "content",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g1-lynx-umi-2",
+  "grade": 1,
+  "title": "リンク、うみへ 行く（後）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g1-lynx-umi",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 363,
+  "qtypes": [
+   "reason",
+   "structure",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-maru-wa-shiawase",
+  "grade": 1,
+  "title": "マルは しあわせ",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51726.html",
+  "genre": "story",
+  "chars": 741,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-mike-no-suzu",
+  "grade": 1,
+  "title": "みけの ごうがいやさん",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51688.html",
+  "genre": "story",
+  "chars": 593,
+  "qtypes": [
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-mushi-kakurenbo",
+  "grade": 1,
+  "title": "虫の かくれんぼ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 322,
+  "qtypes": [
+   "content",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-ookina-imo",
+  "grade": 1,
+  "title": "おおきな おいも",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 341,
+  "qtypes": [
+   "content",
+   "structure",
+   "expression",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-otsukisama",
+  "grade": 1,
+  "title": "おつきさまの かくれんぼ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 326,
+  "qtypes": [
+   "reason",
+   "content",
+   "structure",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-otsukisama-to-zou",
+  "grade": 1,
+  "title": "お月さまと ぞう",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51539.html",
+  "genre": "story",
+  "chars": 570,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
+  "id": "g1-pan",
+  "grade": 1,
+  "title": "パンが できるまで",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 312,
+  "qtypes": [
+   "structure",
+   "vocab",
+   "reason",
+   "reference"
+  ]
+ },
+ {
+  "id": "g1-penguin",
+  "grade": 1,
+  "title": "とべない とり ペンギン",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 305,
+  "qtypes": [
+   "content",
+   "connective",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-semi",
+  "grade": 1,
+  "title": "せみの 一生",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 344,
+  "qtypes": [
+   "content",
+   "content",
+   "vocab",
+   "reference"
+  ]
+ },
+ {
+  "id": "g1-shashinya-san",
+  "grade": 1,
+  "title": "しゃしんやさん",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51578.html",
+  "genre": "story",
+  "chars": 733,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-shingou",
+  "grade": 1,
+  "title": "しんごうの 色",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 330,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-tanabata",
+  "grade": 1,
+  "title": "たなばたの ねがいごと",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 360,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-tanpopo",
+  "grade": 1,
+  "title": "たんぽぽの たび",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 331,
+  "qtypes": [
+   "content",
+   "reason",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-tsumetai-melon",
+  "grade": 1,
+  "title": "つめたい メロン",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51620.html",
+  "genre": "story",
+  "chars": 508,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "expression"
+  ]
+ },
+ {
+  "id": "g1-yasai-doko",
+  "grade": 1,
+  "title": "やさいの どこを 食べて いるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 319,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g1-yuki-no-hi",
+  "grade": 1,
+  "title": "ゆきの 日の あしあと",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 380,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-aikotoba",
+  "grade": 2,
+  "title": "ひみつのあいことば",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 511,
+  "qtypes": [
+   "content",
+   "feeling",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-amedama",
+  "grade": 2,
+  "title": "飴だま",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4723.html",
+  "genre": "story",
+  "chars": 970,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-ashi",
+  "grade": 2,
+  "title": "あし",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4675.html",
+  "genre": "story",
+  "chars": 852,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-dangomushi",
+  "grade": 2,
+  "title": "ダンゴムシのくらし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 415,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-fuyugoshi",
+  "grade": 2,
+  "title": "動物たちの冬ごし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 410,
+  "qtypes": [
+   "vocab",
+   "reason",
+   "reason",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g2-gachou-no-tanjoubi",
+  "grade": 2,
+  "title": "がちょうの たんじょうび",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4726.html",
+  "genre": "story",
+  "chars": 932,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-hitotsu-no-hi",
+  "grade": 2,
+  "title": "ひとつの火",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4716.html",
+  "genre": "story",
+  "chars": 815,
+  "qtypes": [
+   "content",
+   "feeling",
+   "structure",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-hoshi-no-ginka",
+  "grade": 2,
+  "title": "星の銀貨",
+  "author": "グリム（楠山正雄 訳）",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001091/card42316.html",
+  "genre": "folktale",
+  "chars": 1036,
+  "qtypes": [
+   "content",
+   "structure",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-ichinensei-to-hiyome",
+  "grade": 2,
+  "title": "一年生たちとひよめ",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4717.html",
+  "genre": "story",
+  "chars": 839,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-jishaku",
+  "grade": 2,
+  "title": "じしゃくであそぼう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 431,
+  "qtypes": [
+   "content",
+   "content",
+   "vocab",
+   "content",
+   "connective"
+  ]
+ },
+ {
+  "id": "g2-jitensha",
+  "grade": 2,
+  "title": "はじめての自転車",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 488,
+  "qtypes": [
+   "content",
+   "feeling",
+   "content",
+   "reason",
+   "expression"
+  ]
+ },
+ {
+  "id": "g2-kaeru-no-isshou",
+  "grade": 2,
+  "title": "おたまじゃくしからかえるへ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 405,
+  "qtypes": [
+   "content",
+   "content",
+   "structure",
+   "reason",
+   "connective"
+  ]
+ },
+ {
+  "id": "g2-kage",
+  "grade": 2,
+  "title": "かげのふしぎ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 419,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "vocab",
+   "connective"
+  ]
+ },
+ {
+  "id": "g2-kani-no-shoubai",
+  "grade": 2,
+  "title": "蟹のしょうばい",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4674.html",
+  "genre": "story",
+  "chars": 969,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-kitsune-no-tsukai",
+  "grade": 2,
+  "title": "狐のつかい",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4677.html",
+  "genre": "story",
+  "chars": 819,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "expression",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-kyonen-no-ki",
+  "grade": 2,
+  "title": "去年の木",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4719.html",
+  "genre": "story",
+  "chars": 791,
+  "qtypes": [
+   "reason",
+   "structure",
+   "content",
+   "reason",
+   "expression"
+  ]
+ },
+ {
+  "id": "g2-lynx-toshokan-1",
+  "grade": 2,
+  "title": "森の図書館（前）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g2-lynx-toshokan",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 469,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-lynx-toshokan-2",
+  "grade": 2,
+  "title": "森の図書館（後）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g2-lynx-toshokan",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 478,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-mahou-no-kasa",
+  "grade": 2,
+  "title": "まほうのかさ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 504,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-mizu-no-tabi",
+  "grade": 2,
+  "title": "水のたび",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 424,
+  "qtypes": [
+   "vocab",
+   "content",
+   "reason",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-neko-no-hige",
+  "grade": 2,
+  "title": "ねこのひげのひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 424,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-nihiki-no-kaeru",
+  "grade": 2,
+  "title": "二ひきの蛙",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4718.html",
+  "genre": "story",
+  "chars": 942,
+  "qtypes": [
+   "reason",
+   "reason",
+   "expression",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-niji",
+  "grade": 2,
+  "title": "にじはどうしてできるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 412,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reference",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-ojiichan-no-tokei",
+  "grade": 2,
+  "title": "おじいちゃんの時計",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 519,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
+  "id": "g2-otsukimi",
+  "grade": 2,
+  "title": "お月見",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 432,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-ousama-to-kutsuya",
+  "grade": 2,
+  "title": "王さまと靴屋",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4721.html",
+  "genre": "story",
+  "chars": 1044,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-sato-no-haru",
+  "grade": 2,
+  "title": "里の春、山の春",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4676.html",
+  "genre": "story",
+  "chars": 728,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-takenoko",
+  "grade": 2,
+  "title": "たけのこ",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4725.html",
+  "genre": "story",
+  "chars": 644,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-teruteru",
+  "grade": 2,
+  "title": "てるてるぼうずのねがい",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 444,
+  "qtypes": [
+   "reason",
+   "structure",
+   "feeling",
+   "expression",
+   "content"
+  ]
+ },
+ {
+  "id": "g2-tori-no-su",
+  "grade": 2,
+  "title": "鳥のすづくり",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 424,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-yukidaruma",
+  "grade": 2,
+  "title": "雪だるまのぼうし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 493,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-yuubin",
+  "grade": 2,
+  "title": "手紙がとどくまで",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 405,
+  "qtypes": [
+   "content",
+   "structure",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-akai-fune-to-tsubame",
+  "grade": 3,
+  "title": "赤い船とつばめ",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card52922.html",
+  "genre": "story",
+  "chars": 1204,
+  "qtypes": [
+   "reason",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-aoba-no-shita",
+  "grade": 3,
+  "title": "青葉の下",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51497.html",
+  "genre": "story",
+  "chars": 1061,
+  "qtypes": [
+   "content",
+   "reason",
+   "structure",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-chizu-kigou",
+  "grade": 3,
+  "title": "地図記号のなりたち",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 730,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g3-fushigi-na-tane",
+  "grade": 3,
+  "title": "ふしぎなたね",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 709,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-futatsu-no-atama",
+  "grade": 3,
+  "title": "二つの頭",
+  "author": "原民喜",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000293/card43539.html",
+  "genre": "story",
+  "chars": 995,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-inu-no-ousama",
+  "grade": 3,
+  "title": "犬の王様",
+  "author": "夢野久作",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000096/card46690.html",
+  "genre": "story",
+  "chars": 1312,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kenka-no-ato",
+  "grade": 3,
+  "title": "けんかのあとの消しゴム",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 772,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-ki-no-matsuri",
+  "grade": 3,
+  "title": "木の祭り",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4724.html",
+  "genre": "story",
+  "chars": 1362,
+  "qtypes": [
+   "reason",
+   "structure",
+   "reason",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kinoko-kaigi",
+  "grade": 3,
+  "title": "きのこ会議",
+  "author": "夢野久作",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000096/card46694.html",
+  "genre": "story",
+  "chars": 1499,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kodomo-no-suki-na-kamisama",
+  "grade": 3,
+  "title": "子どものすきな神さま",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4720.html",
+  "genre": "story",
+  "chars": 1102,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kome",
+  "grade": 3,
+  "title": "一つぶのお米ができるまで",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 717,
+  "qtypes": [
+   "vocab",
+   "reason",
+   "content",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-koneko",
+  "grade": 3,
+  "title": "雨の日の子ねこ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 734,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kotoba-no-hashi",
+  "grade": 3,
+  "title": "ことばの橋",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 740,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g3-kumo-no-ito",
+  "grade": 3,
+  "title": "クモの糸のひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 720,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "connective",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-lynx-hoshi-no-chizu-1",
+  "grade": 3,
+  "title": "星の地図（前編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g3-lynx-hoshi-no-chizu",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 731,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g3-lynx-hoshi-no-chizu-2",
+  "grade": 3,
+  "title": "星の地図（後編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g3-lynx-hoshi-no-chizu",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 740,
+  "qtypes": [
+   "content",
+   "reason",
+   "vocab",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-mitsubachi",
+  "grade": 3,
+  "title": "ミツバチのダンス",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 710,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g3-nezumi-no-yomeiri",
+  "grade": 3,
+  "title": "ねずみの嫁入り",
+  "author": "楠山正雄",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000329/card18335.html",
+  "genre": "folktale",
+  "chars": 1596,
+  "qtypes": [
+   "reason",
+   "structure",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-nukazuke",
+  "grade": 3,
+  "title": "おばあちゃんのぬかどこ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 717,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-ookami-1",
+  "grade": 3,
+  "title": "おおかみと七ひきのこどもやぎ（一）",
+  "author": "グリム（楠山正雄 訳）",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001091/card42312.html",
+  "genre": "folktale",
+  "series": {
+   "id": "g3-ookami",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 1228,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "structure",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-ookami-2",
+  "grade": 3,
+  "title": "おおかみと七ひきのこどもやぎ（二）",
+  "author": "グリム（楠山正雄 訳）",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001091/card42312.html",
+  "genre": "folktale",
+  "series": {
+   "id": "g3-ookami",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 1330,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "feeling",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-ookami-3",
+  "grade": 3,
+  "title": "おおかみと七ひきのこどもやぎ（三）",
+  "author": "グリム（楠山正雄 訳）",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001091/card42312.html",
+  "genre": "folktale",
+  "series": {
+   "id": "g3-ookami",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 1075,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "expression"
+  ]
+ },
+ {
+  "id": "g3-oto",
+  "grade": 3,
+  "title": "音はどうやってつたわるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 739,
+  "qtypes": [
+   "content",
+   "structure",
+   "content",
+   "reason",
+   "vocab"
+  ]
+ },
+ {
+  "id": "g3-relay",
+  "grade": 3,
+  "title": "つなぐバトン",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 731,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-sake",
+  "grade": 3,
+  "title": "サケの長い旅",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 759,
+  "qtypes": [
+   "content",
+   "vocab",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g3-tebukuro-1",
+  "grade": 3,
+  "title": "手袋を買いに（一）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card637.html",
+  "genre": "story",
+  "series": {
+   "id": "g3-tebukuro",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 1285,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "expression",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-tebukuro-2",
+  "grade": 3,
+  "title": "手袋を買いに（二）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card637.html",
+  "genre": "story",
+  "series": {
+   "id": "g3-tebukuro",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 1433,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-tebukuro-3",
+  "grade": 3,
+  "title": "手袋を買いに（三）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card637.html",
+  "genre": "story",
+  "series": {
+   "id": "g3-tebukuro",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 775,
+  "qtypes": [
+   "reason",
+   "reason",
+   "feeling",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-tsuki-no-katachi",
+  "grade": 3,
+  "title": "月の形がかわるわけ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 740,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-uguisu",
+  "grade": 3,
+  "title": "うぐいす",
+  "author": "原民喜",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000293/card43538.html",
+  "genre": "story",
+  "chars": 1001,
+  "qtypes": [
+   "expression",
+   "structure",
+   "content",
+   "feeling",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-wataridori",
+  "grade": 3,
+  "title": "わたり鳥のふしぎ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 718,
+  "qtypes": [
+   "vocab",
+   "content",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g3-zukou",
+  "grade": 3,
+  "title": "にじいろの絵",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 732,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-akatonbo-1",
+  "grade": 4,
+  "title": "赤とんぼ（前）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4253.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-akatonbo",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1566,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g4-akatonbo-2",
+  "grade": 4,
+  "title": "赤とんぼ（後）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card4253.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-akatonbo",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1380,
+  "qtypes": [
+   "content",
+   "feeling",
+   "reason",
+   "feeling",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-ari-to-kinoko",
+  "grade": 4,
+  "title": "ありときのこ",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card2657.html",
+  "genre": "story",
+  "chars": 1427,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g4-chiisai-tarou-1",
+  "grade": 4,
+  "title": "小さい太郎の悲しみ（前）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card56254.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-chiisai-tarou",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1913,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-chiisai-tarou-2",
+  "grade": 4,
+  "title": "小さい太郎の悲しみ（後）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card56254.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-chiisai-tarou",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1522,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-dagashiya",
+  "grade": 4,
+  "title": "角の駄菓子屋",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1054,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-fushigi-na-shashinkan",
+  "grade": 4,
+  "title": "ふしぎな写真館",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1019,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "main-idea",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-gakkou-no-sakura",
+  "grade": 4,
+  "title": "学校の桜の木",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card52052.html",
+  "genre": "story",
+  "chars": 1707,
+  "qtypes": [
+   "expression",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-gon-1",
+  "grade": 4,
+  "title": "ごん狐（一）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card628.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-gon",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 1522,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-gon-2",
+  "grade": 4,
+  "title": "ごん狐（二）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card628.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-gon",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 1820,
+  "qtypes": [
+   "content",
+   "expression",
+   "feeling",
+   "reason",
+   "reason"
+  ]
+ },
+ {
+  "id": "g4-gon-3",
+  "grade": 4,
+  "title": "ごん狐（三）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card628.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-gon",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 1450,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-hakkou",
+  "grade": 4,
+  "title": "目に見えない料理人",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1073,
+  "qtypes": [
+   "vocab",
+   "expression",
+   "content",
+   "reason",
+   "vocab"
+  ]
+ },
+ {
+  "id": "g4-hirame-no-gakkou-1",
+  "grade": 4,
+  "title": "ひらめの学校（前）",
+  "author": "林芙美子",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000291/card24369.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-hirame",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1556,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "content"
+  ]
+ },
+ {
+  "id": "g4-hirame-no-gakkou-2",
+  "grade": 4,
+  "title": "ひらめの学校（後）",
+  "author": "林芙美子",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000291/card24369.html",
+  "genre": "story",
+  "series": {
+   "id": "g4-hirame",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1054,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-hotaru",
+  "grade": 4,
+  "title": "ホタルの光の言葉",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1008,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g4-kame-no-koura",
+  "grade": 4,
+  "title": "カメのこうらのひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1003,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-ki-ni-iranai-enpitsu",
+  "grade": 4,
+  "title": "気にいらない鉛筆",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card52054.html",
+  "genre": "story",
+  "chars": 1689,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-kin-no-wa",
+  "grade": 4,
+  "title": "金の輪",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card50999.html",
+  "genre": "story",
+  "chars": 1621,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-lynx-ongakukai-1",
+  "grade": 4,
+  "title": "月夜の音楽会（前編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g4-lynx-ongakukai",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1011,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-lynx-ongakukai-2",
+  "grade": 4,
+  "title": "月夜の音楽会（後編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g4-lynx-ongakukai",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1028,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "expression",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-obaachan-no-tegami",
+  "grade": 4,
+  "title": "おばあちゃんの手紙",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1029,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-pan-ya-taiken",
+  "grade": 4,
+  "title": "朝四時のパン屋",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1028,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-pet-bottle",
+  "grade": 4,
+  "title": "ペットボトルの行方",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1015,
+  "qtypes": [
+   "vocab",
+   "structure",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-sanbiki-no-ari",
+  "grade": 4,
+  "title": "三匹のあり",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51038.html",
+  "genre": "story",
+  "chars": 1831,
+  "qtypes": [
+   "content",
+   "structure",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-sarukani-1",
+  "grade": 4,
+  "title": "猿かに合戦（前）",
+  "author": "楠山正雄",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000329/card18334.html",
+  "genre": "folktale",
+  "series": {
+   "id": "g4-sarukani",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1899,
+  "qtypes": [
+   "content",
+   "reason",
+   "structure",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g4-sarukani-2",
+  "grade": 4,
+  "title": "猿かに合戦（後）",
+  "author": "楠山正雄",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000329/card18334.html",
+  "genre": "folktale",
+  "series": {
+   "id": "g4-sarukani",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1363,
+  "qtypes": [
+   "structure",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-taifuu",
+  "grade": 4,
+  "title": "台風はどうして生まれるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1034,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g4-tenkousuru-tomodachi",
+  "grade": 4,
+  "title": "はなれても",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1028,
+  "qtypes": [
+   "feeling",
+   "expression",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-toshichan-harmonica",
+  "grade": 4,
+  "title": "年ちゃんとハーモニカ",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card52093.html",
+  "genre": "story",
+  "chars": 1688,
+  "qtypes": [
+   "content",
+   "expression",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-toshogakari",
+  "grade": 4,
+  "title": "図書係の作戦",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1002,
+  "qtypes": [
+   "structure",
+   "reason",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-washi",
+  "grade": 4,
+  "title": "千年もつ紙",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1034,
+  "qtypes": [
+   "content",
+   "structure",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-yuki-no-kesshou",
+  "grade": 4,
+  "title": "雪の結晶はなぜ六角形",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1000,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-budou-1",
+  "grade": 5,
+  "title": "一房の葡萄（一）",
+  "author": "有島武郎",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000025/card211.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-budou",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 2433,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "expression",
+   "content"
+  ]
+ },
+ {
+  "id": "g5-budou-2",
+  "grade": 5,
+  "title": "一房の葡萄（二）",
+  "author": "有島武郎",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000025/card211.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-budou",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 2113,
+  "qtypes": [
+   "reason",
+   "reason",
+   "feeling",
+   "content",
+   "content"
+  ]
+ },
+ {
+  "id": "g5-budou-3",
+  "grade": 5,
+  "title": "一房の葡萄（三）",
+  "author": "有島武郎",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000025/card211.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-budou",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 1770,
+  "qtypes": [
+   "feeling",
+   "reason",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-chawan-no-yu-1",
+  "grade": 5,
+  "title": "茶わんの湯（湯げの話）",
+  "author": "寺田寅彦",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000042/card2363.html",
+  "genre": "essay",
+  "series": {
+   "id": "g5-chawan-no-yu",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1919,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-chawan-no-yu-2",
+  "grade": 5,
+  "title": "茶わんの湯（湯の話）",
+  "author": "寺田寅彦",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000042/card2363.html",
+  "genre": "essay",
+  "series": {
+   "id": "g5-chawan-no-yu",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2025,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-chuumon-1",
+  "grade": 5,
+  "title": "注文の多い料理店（一）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43754.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-chuumon",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 1436,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g5-chuumon-2",
+  "grade": 5,
+  "title": "注文の多い料理店（二）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43754.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-chuumon",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 1831,
+  "qtypes": [
+   "reason",
+   "structure",
+   "reason",
+   "reason",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-chuumon-3",
+  "grade": 5,
+  "title": "注文の多い料理店（三）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43754.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-chuumon",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 2132,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-gasshou",
+  "grade": 5,
+  "title": "ソプラノの席",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1347,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "content",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-ichou-no-mi",
+  "grade": 5,
+  "title": "いちょうの実",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card51156.html",
+  "genre": "story",
+  "chars": 2629,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-kenju-1",
+  "grade": 5,
+  "title": "虔十公園林（前）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card46601.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-kenju",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2188,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-kenju-2",
+  "grade": 5,
+  "title": "虔十公園林（後）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card46601.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-kenju",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2662,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-kotoba-wa-kawaru",
+  "grade": 5,
+  "title": "言葉は生きている",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1308,
+  "qtypes": [
+   "content",
+   "expression",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-kumo-no-ito",
+  "grade": 5,
+  "title": "蜘蛛の糸",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card92.html",
+  "genre": "story",
+  "chars": 2854,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-kyuusukekun-1",
+  "grade": 5,
+  "title": "久助君の話（前）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card634.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-kyuusukekun",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2045,
+  "qtypes": [
+   "reason",
+   "content",
+   "structure",
+   "vocab",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-kyuusukekun-2",
+  "grade": 5,
+  "title": "久助君の話（後）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card634.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-kyuusukekun",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2629,
+  "qtypes": [
+   "expression",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-lynx-kieta-kawa-1",
+  "grade": 5,
+  "title": "消えた小川（前編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g5-lynx-kieta-kawa",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1306,
+  "qtypes": [
+   "reason",
+   "expression",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-lynx-kieta-kawa-2",
+  "grade": 5,
+  "title": "消えた小川（後編）",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "series": {
+   "id": "g5-lynx-kieta-kawa",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1302,
+  "qtypes": [
+   "feeling",
+   "reason",
+   "main-idea",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-media",
+  "grade": 5,
+  "title": "その情報、本当？",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1335,
+  "qtypes": [
+   "content",
+   "vocab",
+   "content",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g5-newton-1",
+  "grade": 5,
+  "title": "ニュートン（前）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58021.html",
+  "genre": "biography",
+  "series": {
+   "id": "g5-newton",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1996,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-newton-2",
+  "grade": 5,
+  "title": "ニュートン（後）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58021.html",
+  "genre": "biography",
+  "series": {
+   "id": "g5-newton",
+   "part": 2,
+   "total": 2
+  },
+  "note": "今では使われない国名を「中国」に改めています。",
+  "chars": 1896,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-nobara",
+  "grade": 5,
+  "title": "野ばら",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51034.html",
+  "genre": "story",
+  "chars": 2304,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-seibutsu-tayousei",
+  "grade": 5,
+  "title": "つながり合う命",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1362,
+  "qtypes": [
+   "vocab",
+   "reason",
+   "content",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g5-shokuhin-loss",
+  "grade": 5,
+  "title": "まだ食べられるのに",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1319,
+  "qtypes": [
+   "vocab",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-shuwa-no-tomodachi",
+  "grade": 5,
+  "title": "手のひらの言葉",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1316,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-torokko-1",
+  "grade": 5,
+  "title": "トロッコ（前）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43016.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-torokko",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1926,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
+   "reason"
+  ]
+ },
+ {
+  "id": "g5-torokko-2",
+  "grade": 5,
+  "title": "トロッコ（後）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43016.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-torokko",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2398,
+  "qtypes": [
+   "feeling",
+   "reason",
+   "content",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-yodaka-1",
+  "grade": 5,
+  "title": "よだかの星（前）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card473.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-yodaka",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2477,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-yodaka-2",
+  "grade": 5,
+  "title": "よだかの星（後）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card473.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-yodaka",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2682,
+  "qtypes": [
+   "content",
+   "content",
+   "structure",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-yukiwatari-1",
+  "grade": 5,
+  "title": "雪渡り（一）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card45679.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-yukiwatari",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 1991,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-yukiwatari-2",
+  "grade": 5,
+  "title": "雪渡り（二）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card45679.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-yukiwatari",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 1542,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g5-yukiwatari-3",
+  "grade": 5,
+  "title": "雪渡り（三）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card45679.html",
+  "genre": "story",
+  "series": {
+   "id": "g5-yukiwatari",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 2830,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-akai-rousoku-1",
+  "grade": 6,
+  "title": "赤いろうそくと人魚（一）",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51005.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-akai-rousoku",
+   "part": 1,
+   "total": 3
+  },
+  "chars": 2758,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-akai-rousoku-2",
+  "grade": 6,
+  "title": "赤いろうそくと人魚（二）",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51005.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-akai-rousoku",
+   "part": 2,
+   "total": 3
+  },
+  "chars": 2251,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g6-akai-rousoku-3",
+  "grade": 6,
+  "title": "赤いろうそくと人魚（三）",
+  "author": "小川未明",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001475/card51005.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-akai-rousoku",
+   "part": 3,
+   "total": 3
+  },
+  "chars": 2032,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-curie-1",
+  "grade": 6,
+  "title": "キュリー夫人（前）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58045.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-curie",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2768,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-curie-2",
+  "grade": 6,
+  "title": "キュリー夫人（後）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58045.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-curie",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3196,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-damon-1",
+  "grade": 6,
+  "title": "デイモンとピシアス（一）",
+  "author": "鈴木三重吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000107/card18333.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-damon",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2292,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-damon-2",
+  "grade": 6,
+  "title": "デイモンとピシアス（二）",
+  "author": "鈴木三重吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000107/card18333.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-damon",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2325,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-donguri-1",
+  "grade": 6,
+  "title": "どんぐりと山猫（前）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43752.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-donguri",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2560,
+  "qtypes": [
+   "feeling",
+   "content",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-donguri-2",
+  "grade": 6,
+  "title": "どんぐりと山猫（後）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43752.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-donguri",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3709,
+  "qtypes": [
+   "content",
+   "structure",
+   "main-idea",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-galileo-1",
+  "grade": 6,
+  "title": "ガリレオ・ガリレイ（前）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58008.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-galileo",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2295,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-galileo-2",
+  "grade": 6,
+  "title": "ガリレオ・ガリレイ（後）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58008.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-galileo",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3271,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-gauche-1",
+  "grade": 6,
+  "title": "セロ弾きのゴーシュ（一）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card470.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-gauche",
+   "part": 1,
+   "total": 4
+  },
+  "chars": 3591,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g6-gauche-2",
+  "grade": 6,
+  "title": "セロ弾きのゴーシュ（二）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card470.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-gauche",
+   "part": 2,
+   "total": 4
+  },
+  "chars": 2741,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-gauche-3",
+  "grade": 6,
+  "title": "セロ弾きのゴーシュ（三）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card470.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-gauche",
+   "part": 3,
+   "total": 4
+  },
+  "chars": 3014,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "content"
+  ]
+ },
+ {
+  "id": "g6-gauche-4",
+  "grade": 6,
+  "title": "セロ弾きのゴーシュ（四）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card470.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-gauche",
+   "part": 4,
+   "total": 4
+  },
+  "chars": 2286,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-graph-no-wana",
+  "grade": 6,
+  "title": "グラフにだまされないために",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1720,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-inou-1",
+  "grade": 6,
+  "title": "伊能忠敬（前）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58549.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-inou",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 1790,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-inou-2",
+  "grade": 6,
+  "title": "伊能忠敬（後）",
+  "author": "石原純",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/001429/card58549.html",
+  "genre": "biography",
+  "series": {
+   "id": "g6-inou",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3067,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-majutsu-1",
+  "grade": 6,
+  "title": "魔術（前）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card95.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-majutsu",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 3467,
+  "qtypes": [
+   "content",
+   "content",
+   "structure",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-majutsu-2",
+  "grade": 6,
+  "title": "魔術（後）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card95.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-majutsu",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3666,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-mori-to-mizu",
+  "grade": 6,
+  "title": "森は「緑のダム」か",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1682,
+  "qtypes": [
+   "content",
+   "vocab",
+   "content",
+   "main-idea",
+   "reason"
+  ]
+ },
+ {
+  "id": "g6-oinomori-1",
+  "grade": 6,
+  "title": "狼森と笊森、盗森（前）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43753.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-oinomori",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2667,
+  "qtypes": [
+   "content",
+   "structure",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-oinomori-2",
+  "grade": 6,
+  "title": "狼森と笊森、盗森（後）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card43753.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-oinomori",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 2841,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-otsuberu-1",
+  "grade": 6,
+  "title": "オツベルと象（前）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card466.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-otsuberu",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2492,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "expression"
+  ]
+ },
+ {
+  "id": "g6-otsuberu-2",
+  "grade": 6,
+  "title": "オツベルと象（後）",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card466.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-otsuberu",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 3135,
+  "qtypes": [
+   "structure",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-toshishun-1",
+  "grade": 6,
+  "title": "杜子春（一）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43015.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-toshishun",
+   "part": 1,
+   "total": 4
+  },
+  "chars": 2337,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g6-toshishun-2",
+  "grade": 6,
+  "title": "杜子春（二）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43015.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-toshishun",
+   "part": 2,
+   "total": 4
+  },
+  "chars": 2038,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-toshishun-3",
+  "grade": 6,
+  "title": "杜子春（三）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43015.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-toshishun",
+   "part": 3,
+   "total": 4
+  },
+  "chars": 1814,
+  "qtypes": [
+   "structure",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-toshishun-4",
+  "grade": 6,
+  "title": "杜子春（四）",
+  "author": "芥川竜之介",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000879/card43015.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-toshishun",
+   "part": 4,
+   "total": 4
+  },
+  "chars": 2883,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-utadokei-1",
+  "grade": 6,
+  "title": "うた時計（前）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card1753.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-utadokei",
+   "part": 1,
+   "total": 2
+  },
+  "chars": 2634,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "content"
+  ]
+ },
+ {
+  "id": "g6-utadokei-2",
+  "grade": 6,
+  "title": "うた時計（後）",
+  "author": "新美南吉",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000121/card1753.html",
+  "genre": "story",
+  "series": {
+   "id": "g6-utadokei",
+   "part": 2,
+   "total": 2
+  },
+  "chars": 1809,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g6-yamanashi",
+  "grade": 6,
+  "title": "やまなし",
+  "author": "宮沢賢治",
+  "source": "aozora",
+  "url": "https://www.aozora.gr.jp/cards/000081/card46605.html",
+  "genre": "story",
+  "chars": 2583,
+  "qtypes": [
+   "structure",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ }
+]
