@@ -29,15 +29,26 @@ export const escapeHtml = (s: string) =>
   s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 
 /** 「{漢字|かんじ}」をふりがな付きの HTML にする */
-export function rubyHtml(text: string): string {
+export function rubyHtml(text: string, upright = false): string {
   return segments(text)
-    .map((s) => (s.ruby ? `<ruby>${escapeHtml(s.text)}<rt>${escapeHtml(s.ruby)}</rt></ruby>` : escapeHtml(s.text)))
+    .map((s) => (s.ruby ? `<ruby>${escapeHtml(s.text)}<rt>${escapeHtml(s.ruby)}</rt></ruby>` : upright ? tcyHtml(s.text) : escapeHtml(s.text)))
     .join('');
 }
 
-export function withRuby<K extends keyof HTMLElementTagNameMap>(tag: K, cls: string, text: string, attrs: Record<string, string> = {}) {
+/**
+ * たて書きで、1〜2 文字の半角英数字 (磁石の N、8 など) を 1 字分に立てて書けるよう span.tcy で包む。
+ * 3 文字以上 (2014、RESTAURANT) は、たて書きの本と同じく横に寝かせたままにする。横書きでは見た目は変わらない
+ */
+export function tcyHtml(text: string): string {
+  return text
+    .split(/(?<![0-9A-Za-z])([0-9A-Za-z]{1,2})(?![0-9A-Za-z])/)
+    .map((part, i) => (i % 2 === 1 ? `<span class="tcy">${part}</span>` : escapeHtml(part)))
+    .join('');
+}
+
+export function withRuby<K extends keyof HTMLElementTagNameMap>(tag: K, cls: string, text: string, attrs: Record<string, string> = {}, upright = false) {
   const el = h(tag, { class: cls, ...attrs });
-  el.innerHTML = rubyHtml(text);
+  el.innerHTML = rubyHtml(text, upright);
   return el;
 }
 

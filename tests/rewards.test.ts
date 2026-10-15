@@ -12,9 +12,11 @@ import {
   getGrade,
   getScores,
   getStamps,
+  getView,
   loadProgress,
   migrateCardPrices,
   setGrade,
+  setView,
   startTry,
   statusOf,
 } from '../src/core/storage';
@@ -146,6 +148,26 @@ describe('文章を読んでもらえるポイント', () => {
     expect(getGrade()).toBeNull();
     setGrade(3);
     expect(getGrade()).toBe(3);
+  });
+});
+
+describe('本文の向きと文字の大きさ', () => {
+  it('はじめは、国語のテストと同じたて書き', () => {
+    expect(getView()).toEqual({ tate: true, size: 0 });
+  });
+
+  it('よこ書きにした人は、よこ書きのまま。文字の大きさも覚えておく', () => {
+    setView({ tate: false, size: 2 });
+    expect(getView()).toEqual({ tate: false, size: 2 });
+    setView({ tate: true, size: 1 });
+    expect(getView()).toEqual({ tate: true, size: 1 });
+  });
+
+  it('形がくずれた値なら、たて書き・ふつうの大きさ', () => {
+    localStorage.setItem('readingquest:view', '{');
+    expect(getView()).toEqual({ tate: true, size: 0 });
+    localStorage.setItem('readingquest:view', JSON.stringify({ tate: 'x', size: 7 }));
+    expect(getView()).toEqual({ tate: true, size: 0 });
   });
 });
 

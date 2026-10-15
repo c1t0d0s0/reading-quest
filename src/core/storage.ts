@@ -114,7 +114,7 @@ export function setSound(on: boolean): void {
 }
 
 export interface ViewPrefs {
-  /** たて書きで読む */
+  /** たて書きで読む (はじめはたて書き。国語のテストと同じ向き) */
   tate: boolean;
   /** 文字の大きさ (0: ふつう, 1: 大きい, 2: とても大きい) */
   size: 0 | 1 | 2;
@@ -123,9 +123,9 @@ export interface ViewPrefs {
 export function getView(): ViewPrefs {
   try {
     const v = JSON.parse(localStorage.getItem(VIEW_KEY) ?? '{}') as Partial<ViewPrefs>;
-    return { tate: v.tate === true, size: v.size === 1 || v.size === 2 ? v.size : 0 };
+    return { tate: v.tate !== false, size: v.size === 1 || v.size === 2 ? v.size : 0 };
   } catch {
-    return { tate: false, size: 0 };
+    return { tate: true, size: 0 };
   }
 }
 

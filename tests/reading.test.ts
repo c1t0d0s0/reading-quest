@@ -2,7 +2,25 @@ import { describe, expect, it } from 'vitest';
 import { choiceOrder, countChars, plain, score, segments } from '../src/core/reading';
 import { recommend, typeStats, weakest } from '../src/core/stats';
 import { alignRuby, parseFile } from '../scripts/passages-lib';
+import { rubyHtml, tcyHtml } from '../src/ui/dom';
 import type { PassageMeta } from '../src/core/reading';
+
+describe('たて書きの半角英数字', () => {
+  it('1〜2 文字だけを 1 字分に立てる。3 文字以上はそのまま', () => {
+    expect(tcyHtml('N極とS極')).toBe('<span class="tcy">N</span>極と<span class="tcy">S</span>極');
+    expect(tcyHtml('8の字、12月')).toBe('<span class="tcy">8</span>の字、<span class="tcy">12</span>月');
+    expect(tcyHtml('2014年の RESTAURANT')).toBe('2014年の RESTAURANT');
+  });
+
+  it('HTML の特別な文字は、包む前にこわさない', () => {
+    expect(tcyHtml('A&B "C"')).toBe('<span class="tcy">A</span>&amp;<span class="tcy">B</span> &quot;<span class="tcy">C</span>&quot;');
+  });
+
+  it('ふりがなの中はさわらない。横書き用 (upright なし) は今までどおり', () => {
+    expect(rubyHtml('{磁石|じしゃく}のN', true)).toBe('<ruby>磁石<rt>じしゃく</rt></ruby>の<span class="tcy">N</span>');
+    expect(rubyHtml('{磁石|じしゃく}のN')).toBe('<ruby>磁石<rt>じしゃく</rt></ruby>のN');
+  });
+});
 
 describe('ふりがな', () => {
   it('{漢字|かんじ} を分ける', () => {

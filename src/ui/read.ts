@@ -15,7 +15,7 @@ import {
 } from '../core/storage';
 import { loadPassage, metaOf, nextPart, prevPart } from '../data/passages';
 import { playClear } from './celebrate';
-import { escapeHtml, h, hanamaru, homeButton, rubyHtml, withRuby } from './dom';
+import { escapeHtml, h, hanamaru, homeButton, rubyHtml, tcyHtml, withRuby } from './dom';
 import { passageMeta } from './home';
 import { playCorrect, playWrong, primeSound } from './sound';
 import { T } from './text';
@@ -47,7 +47,7 @@ export function markedHtml(text: string, ranges: readonly [number, number][]): s
     let buf = '';
     let marked = false;
     const flush = () => {
-      if (buf) out += marked ? `<mark>${escapeHtml(buf)}</mark>` : escapeHtml(buf);
+      if (buf) out += marked ? `<mark>${tcyHtml(buf)}</mark>` : tcyHtml(buf);
       buf = '';
     };
     for (let i = start; i < end; i++) {
@@ -118,14 +118,14 @@ function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   // ---- 本文 ----
   const plainParas = p.body.map((para) => segments(para).map((s) => s.text).join(''));
   const paraEls: HTMLElement[] = p.body.map((para, i) =>
-    isHeading(para) ? withRuby('h3', 'passage-heading', para.slice(3)) : withRuby('p', 'passage-para', para, { 'data-i': String(i) }),
+    isHeading(para) ? withRuby('h3', 'passage-heading', para.slice(3), {}, true) : withRuby('p', 'passage-para', para, { 'data-i': String(i) }, true),
   );
   /** 手がかりの印をつけかえる。null なら印を消す */
   const highlight = (evidence: string | null): HTMLElement | null => {
     const found = evidence ? findEvidence(plainParas, evidence) : new Map();
     p.body.forEach((para, i) => {
       if (isHeading(para)) return;
-      paraEls[i].innerHTML = found.has(i) ? markedHtml(para, found.get(i)!) : rubyHtml(para);
+      paraEls[i].innerHTML = found.has(i) ? markedHtml(para, found.get(i)!) : rubyHtml(para, true);
     });
     return root.querySelector('.passage mark');
   };
@@ -134,13 +134,21 @@ function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   const passage = h(
     'article',
     { class: 'passage', 'aria-labelledby': 'passage-title' },
-    h('h2', { id: 'passage-title', class: 'passage-title' }, p.title),
-    h('p', { class: 'passage-author' }, p.source === 'original' ? T.original : p.author),
-    h('div', { class: 'passage-body', tabindex: '0' }, ...paraEls),
+    // たて書きのときは、題名・作者・本文をひと続きにたて書きにする (テストの紙面と同じく、右はしに題名)
+    h(
+      'div',
+      { class: 'passage-flow', tabindex: '0' },
+      h('h2', { id: 'passage-title', class: 'passage-title' }, p.title),
+      h('p', { class: 'passage-author' }, p.source === 'original' ? T.original : p.author),
+      h('div', { class: 'passage-body' }, ...paraEls),
+    ),
     sourceLine(p),
   );
+  // 広い画面では、たて書きの本文を右に、問題を左に置く (右から左へ読む向きに合わせる)
+  const reader = h('main', { class: 'reader' });
   const applyView = (v: ViewPrefs) => {
     passage.classList.toggle('is-tate', v.tate);
+    reader.classList.toggle('is-tate', v.tate);
     passage.dataset.size = String(v.size);
     passage.dataset.grade = String(p.grade);
   };
@@ -306,17 +314,13 @@ function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   );
 
   paintCounter();
+  reader.append(h('div', { class: 'reader-text' }, h('div', { class: 'reader-meta' }, passageMeta(p), tools), passage), questions);
   root.replaceChildren(
     h(
       'div',
       { class: 'reader-page' },
       bar,
-      h(
-        'main',
-        { class: 'reader' },
-        h('div', { class: 'reader-text' }, h('div', { class: 'reader-meta' }, passageMeta(p), tools), passage),
-        questions,
-      ),
+      reader,
     ),
   );
 }
