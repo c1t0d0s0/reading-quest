@@ -1,9 +1,22 @@
 import { describe, expect, it } from 'vitest';
 import { choiceOrder, countChars, plain, score, segments } from '../src/core/reading';
 import { recommend, typeStats, weakest } from '../src/core/stats';
+import { gradeFromSearch } from '../src/core/storage';
 import { alignRuby, parseFile } from '../scripts/passages-lib';
 import { rubyHtml, tcyHtml } from '../src/ui/dom';
 import type { PassageMeta } from '../src/core/reading';
+
+describe('URL のクエリから学年を読む', () => {
+  it('?grade=1〜6 なら学年を返し、それ以外は null', () => {
+    expect(gradeFromSearch('?grade=3')).toBe(3);
+    expect(gradeFromSearch('?foo=1&grade=6')).toBe(6);
+    expect(gradeFromSearch('')).toBeNull();
+    expect(gradeFromSearch('?grade=')).toBeNull();
+    expect(gradeFromSearch('?grade=0')).toBeNull();
+    expect(gradeFromSearch('?grade=7')).toBeNull();
+    expect(gradeFromSearch('?grade=abc')).toBeNull();
+  });
+});
 
 describe('たて書きの半角英数字', () => {
   it('1〜2 文字だけを 1 字分に立てる。3 文字以上はそのまま', () => {

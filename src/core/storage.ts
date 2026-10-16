@@ -92,6 +92,12 @@ function keys(at: string = prefix): string[] {
 
 // ---- 設定 ----
 
+/** URL の ?grade=3 から学年を取り出す。1〜6 でなければ null */
+export function gradeFromSearch(search: string): Grade | null {
+  const g = Number(new URLSearchParams(search).get('grade'));
+  return isGrade(g) ? g : null;
+}
+
 /** えらんでいる学年。まだえらんでいなければ null */
 export function getGrade(): Grade | null {
   const g = read<number>('grade');

@@ -2,7 +2,7 @@ import './styles.css';
 import { restoreStore, startCloud } from './cloud';
 import { dailyPassage } from './core/daily';
 import { jstDate } from './core/date';
-import { getGrade, migrateCardPrices } from './core/storage';
+import { getGrade, gradeFromSearch, migrateCardPrices, setGrade } from './core/storage';
 import { CARDS } from './data/cards';
 import { PASSAGES } from './data/passages';
 import { renderCards } from './ui/cards';
@@ -14,7 +14,10 @@ import { renderStamps } from './ui/stamps';
 import { T } from './ui/text';
 
 // 前にログインしていた人がいれば、通信を待たずに、この端末に残っているその人の写しで画面を出す
+const queryGrade = gradeFromSearch(location.search);
+if (queryGrade !== null) setGrade(queryGrade);
 restoreStore();
+if (queryGrade !== null) setGrade(queryGrade);
 migrateCardPrices(CARDS);
 
 const app = document.getElementById('app')!;
