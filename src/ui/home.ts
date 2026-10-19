@@ -87,7 +87,7 @@ export function passageMeta(meta: PassageMeta): HTMLElement {
 
 function dailySection(grade: Grade, today: string): HTMLElement {
   const meta = dailyPassage(PASSAGES, grade, today);
-  const done = dailyDone(today);
+  const done = dailyDone(today, grade);
   const status = meta ? statusOf(meta.id) : 'new';
   const run = currentRun(getStamps(), today);
   const d = new Date(`${today}T00:00:00Z`);

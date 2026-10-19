@@ -37,7 +37,7 @@ function route(): void {
   if (hash === '#/daily' && grade !== null) {
     const today = jstDate();
     const meta = dailyPassage(PASSAGES, grade, today);
-    if (meta) cleanup = renderRead(app, meta.id, { daily: today });
+    if (meta) cleanup = renderRead(app, meta.id, { daily: today, grade });
     else renderHome(app);
   } else if (read) {
     cleanup = renderRead(app, read[1]);

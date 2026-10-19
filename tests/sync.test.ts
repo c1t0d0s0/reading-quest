@@ -168,7 +168,7 @@ describe('ログインしない人', () => {
     await a.sync.flush();
     expect(a.sync.status).toBe('signed-out');
     addStamp(today);
-    addDailyClear(today);
+    addDailyClear(today, 3);
     read('g4-a', 5);
     await a.sync.flush();
     expect(cloud.writes).toBe(0);
@@ -187,7 +187,7 @@ describe('ログインして記録をうつす', () => {
     // ログインなしで読んだ記録
     for (const d of daysBefore(7)) {
       addStamp(d);
-      addDailyClear(d);
+      addDailyClear(d, 3);
     }
     read('g4-a', 5);
     read('g4-b', 3);
@@ -205,7 +205,7 @@ describe('ログインして記録をうつす', () => {
 
     const remote = cloud.data.get('alice')!;
     expect(remote.stamps).toHaveLength(7);
-    expect(remote.clears).toHaveLength(7);
+    expect(remote.clears).toHaveLength(14);
     expect(remote.scores).toEqual({ 'g4-a': 5, 'g4-b': 3 });
     expect(remote.cards).toEqual([{ id: 'rq01', paid: 40 }]);
     expect(remote.progress['g4-a'].done).toBe(true);
@@ -281,7 +281,7 @@ describe('ブラウザを変えても記録が続く', () => {
     await a.sync.signIn();
     await a.sync.flush();
     for (const d of daysBefore(7)) addStamp(d);
-    addDailyClear(today);
+    addDailyClear(today, 3);
     saveProgress('g3-x', playing);
     setGrade(3);
     expect(buyCard(CARDS[1])).toBe(true); // 80pt
@@ -322,7 +322,7 @@ describe('ブラウザを変えても記録が続く', () => {
     // その間に、A で別の文章を読み、今日のチャレンジを終える (まだ B の変更を知らない)
     use(a);
     read('g4-a', 3);
-    addDailyClear(today);
+    addDailyClear(today, 3);
     addStamp(today);
     await a.sync.flush();
     use(b);
@@ -378,7 +378,7 @@ describe('通信できないとき', () => {
     await a.sync.flush();
     cloud.fail = true;
     addStamp(today);
-    addDailyClear(today);
+    addDailyClear(today, 3);
     read('g4-a', 5);
     await a.sync.flush();
     expect(a.sync.status).toBe('offline');
@@ -390,7 +390,7 @@ describe('通信できないとき', () => {
     await a.sync.flush();
     expect(a.sync.status).toBe('synced');
     expect(a.sync.hasPending()).toBe(false);
-    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`]);
+    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`, `daily-${today}-g3`]);
     expect(cloud.data.get('alice')!.progress['g4-a'].done).toBe(true);
   });
 
@@ -417,7 +417,7 @@ describe('ログアウト', () => {
   it('この端末から、その人の写しが消える', async () => {
     await a.sync.signIn();
     await a.sync.flush();
-    addDailyClear(today);
+    addDailyClear(today, 3);
     saveProgress('g4-a', done);
     expect(await a.sync.signOut()).toBe('ok');
     await a.sync.flush();
@@ -427,17 +427,17 @@ describe('ログアウト', () => {
     expect([...a.storage.keys()].filter((k) => k.startsWith('readingquest:u:'))).toEqual([]);
     expect(getClears()).toEqual([]);
     // 送ってからログアウトしているので、Firestore には残っている
-    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`]);
+    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`, `daily-${today}-g3`]);
   });
 
   it('送れていない変更があるときは、たしかめてからでないとログアウトしない', async () => {
     await a.sync.signIn();
     await a.sync.flush();
     cloud.fail = true;
-    addDailyClear(today);
+    addDailyClear(today, 3);
     expect(await a.sync.signOut()).toBe('unsynced');
     expect(a.sync.uid).toBe('alice');
-    expect(getClears()).toEqual([`daily-${today}`]); // まだ手元にある
+    expect(getClears()).toEqual([`daily-${today}`, `daily-${today}-g3`]); // まだ手元にある
     expect(await a.sync.signOut(true)).toBe('ok');
     await a.sync.flush();
     expect(currentUid()).toBeNull();
@@ -446,7 +446,7 @@ describe('ログアウト', () => {
   it('別の人がログインしても、前の人の記録は見えない', async () => {
     await a.sync.signIn();
     await a.sync.flush();
-    addDailyClear(today);
+    addDailyClear(today, 3);
     await a.sync.signOut();
     await a.sync.flush();
     a.auth.nextUid = 'bob';
@@ -454,7 +454,7 @@ describe('ログアウト', () => {
     await a.sync.flush();
     expect(currentUid()).toBe('bob');
     expect(getClears()).toEqual([]);
-    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`]);
+    expect(cloud.data.get('alice')!.clears).toEqual([`daily-${today}`, `daily-${today}-g3`]);
     expect(cloud.data.get('bob')?.clears ?? []).toEqual([]);
   });
 });

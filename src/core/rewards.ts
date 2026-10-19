@@ -1,4 +1,5 @@
 import { addDays } from './date';
+import type { Grade } from './reading';
 
 /** 7 日連続するたびにもらえるポイント */
 export const WEEK_POINTS = 1000;
@@ -10,8 +11,10 @@ export const DAILY_POINTS = 20;
 /** 問題に 1 問正解するともらえるポイント。その文章をはじめて解いたときだけ */
 export const POINTS_PER_CORRECT = 4;
 
-/** 今日のチャレンジを終えた印 (clears に入れる id) */
+/** 今日のチャレンジを終えた印 (clears に入れる id)。ポイントはこの印 1 つ分だけ (1 日 1 回) */
 export const dailyClearId = (date: string): string => `daily-${date}`;
+/** どの学年の今日のチャレンジを終えたかの印。ポイントはつかない */
+export const dailyGradeClearId = (date: string, grade: Grade): string => `daily-${date}-g${grade}`;
 
 /** clears の 1 つ分のポイント */
 export function clearPoints(id: string): number {

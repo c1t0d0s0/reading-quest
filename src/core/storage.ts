@@ -1,5 +1,5 @@
 import type { Grade } from './reading';
-import { POINTS_PER_CORRECT, clearPoints, dailyClearId, earnedPoints, normalizeStamps, rewardFor, scorePoints, type StampReward } from './rewards';
+import { POINTS_PER_CORRECT, clearPoints, dailyClearId, dailyGradeClearId, earnedPoints, normalizeStamps, rewardFor, scorePoints, type StampReward } from './rewards';
 import { checkProgress, emptySnapshot, isGrade, type OwnedCard, type Progress, type Snapshot } from './snapshot';
 
 export type { OwnedCard, Progress } from './snapshot';
@@ -241,17 +241,22 @@ export function getClears(): string[] {
   return Array.isArray(saved) ? saved.filter((id) => typeof id === 'string') : [];
 }
 
-export function dailyDone(date: string): boolean {
-  return getClears().includes(dailyClearId(date));
+/** その学年の今日のチャレンジを終えたか。学年ごとに出る文章がちがうので、学年ごとに見る */
+export function dailyDone(date: string, grade: Grade): boolean {
+  return getClears().includes(dailyGradeClearId(date, grade));
 }
 
-/** 今日のチャレンジを終えたことを記録する。もどり値は、今回もらえたポイント (2 回目からは 0) */
-export function addDailyClear(date: string): number {
+/**
+ * 今日のチャレンジを終えたことを、学年ごとに記録する。
+ * もどり値は、今回もらえたポイント。ポイントは学年をかえても 1 日 1 回だけ (2 回目からは 0)
+ */
+export function addDailyClear(date: string, grade: Grade): number {
   const clears = getClears();
-  const id = dailyClearId(date);
-  if (clears.includes(id)) return 0;
-  write('clears', [...clears, id].sort());
-  return clearPoints(id);
+  const day = dailyClearId(date);
+  const added = [day, dailyGradeClearId(date, grade)].filter((id) => !clears.includes(id));
+  if (added.length === 0) return 0;
+  write('clears', [...clears, ...added].sort());
+  return added.includes(day) ? clearPoints(day) : 0;
 }
 
 export function getCards(): OwnedCard[] {

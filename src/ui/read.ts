@@ -1,4 +1,4 @@
-import { choiceOrder, isHeading, segments, type Passage } from '../core/reading';
+import { choiceOrder, isHeading, segments, type Grade, type Passage } from '../core/reading';
 import { POINTS_PER_CORRECT, type StampReward } from '../core/rewards';
 import {
   addDailyClear,
@@ -27,6 +27,8 @@ const WIDE = '(min-width: 62.5rem)';
 export interface ReadOptions {
   /** 今日のチャレンジとして読むときの日付 */
   daily?: string;
+  /** 今日のチャレンジの学年 (daily といっしょに渡す) */
+  grade?: Grade;
 }
 
 /** 段落の中で、[start, end) の範囲に黄色い印をつけた HTML (ふりがなの付いた言葉は、まるごと印の中に入れる) */
@@ -107,9 +109,11 @@ export function renderRead(root: HTMLElement, id: string, opts: ReadOptions = {}
 
 function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   const daily = opts.daily;
+  const dailyGrade = opts.grade;
+  const dailyCleared = () => daily !== undefined && dailyGrade !== undefined && dailyDone(daily, dailyGrade);
   let progress: Progress | null = loadProgress(p.id);
   // 今日のチャレンジで、前に読み終えている文章が出たときは、読み直しから始める
-  if (daily && !dailyDone(daily) && progress?.done) progress = startTry(p.id, p.questions.length);
+  if (daily && !dailyCleared() && progress?.done) progress = startTry(p.id, p.questions.length);
   // 問題の数が変わっていたら (文章を直したとき)、読み直しにする
   if (progress && progress.answers.length !== p.questions.length) progress = startTry(p.id, p.questions.length);
   const tries = progress?.tries ?? 0;
@@ -261,8 +265,8 @@ function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   const finish = async (points: number) => {
     let stamp: StampReward | undefined;
     let dailyPoints = 0;
-    if (daily && !dailyDone(daily)) {
-      dailyPoints = addDailyClear(daily);
+    if (daily && dailyGrade !== undefined && !dailyCleared()) {
+      dailyPoints = addDailyClear(daily, dailyGrade);
       stamp = addStamp(daily);
     }
     const correct = progress!.ok.filter(Boolean).length;

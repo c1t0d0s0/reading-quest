@@ -134,14 +134,23 @@ describe('文章を読んでもらえるポイント', () => {
   });
 
   it('今日のチャレンジは 1 日 1 回 20pt。スタンプも 1 日 1 個', () => {
-    expect(dailyDone('2026-10-09')).toBe(false);
-    expect(addDailyClear('2026-10-09')).toBe(DAILY_POINTS);
-    expect(addDailyClear('2026-10-09')).toBe(0);
-    expect(dailyDone('2026-10-09')).toBe(true);
+    expect(dailyDone('2026-10-09', 3)).toBe(false);
+    expect(addDailyClear('2026-10-09', 3)).toBe(DAILY_POINTS);
+    expect(addDailyClear('2026-10-09', 3)).toBe(0);
+    expect(dailyDone('2026-10-09', 3)).toBe(true);
     expect(addStamp('2026-10-09').added).toBe(true);
     expect(addStamp('2026-10-09').added).toBe(false);
     expect(getStamps()).toEqual(['2026-10-09']);
     expect(balance()).toBe(20);
+  });
+
+  it('今日のチャレンジの「おわった」は学年ごと。ポイントは学年をかえても 1 日 1 回', () => {
+    expect(addDailyClear('2026-10-09', 3)).toBe(DAILY_POINTS);
+    expect(dailyDone('2026-10-09', 3)).toBe(true);
+    expect(dailyDone('2026-10-09', 4)).toBe(false);
+    expect(addDailyClear('2026-10-09', 4)).toBe(0);
+    expect(dailyDone('2026-10-09', 4)).toBe(true);
+    expect(balance()).toBe(DAILY_POINTS);
   });
 
   it('学年は、えらぶまで null', () => {
@@ -188,9 +197,9 @@ describe('カードとの交換', () => {
   });
 
   it('今日のチャレンジを 2 回すれば、1 枚目のカード (40pt) と交換できる', () => {
-    addDailyClear('2026-10-09');
+    addDailyClear('2026-10-09', 3);
     expect(buyCard(CARDS[0])).toBe(false);
-    addDailyClear('2026-10-10');
+    addDailyClear('2026-10-10', 3);
     expect(buyCard(CARDS[0])).toBe(true);
     expect(balance()).toBe(0);
   });
