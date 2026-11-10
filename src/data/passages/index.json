@@ -121,6 +121,21 @@
   ]
  },
  {
+  "id": "g1-kaseki-no-himitsu",
+  "grade": 1,
+  "title": "かせきの ひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 517,
+  "qtypes": [
+   "content",
+   "vocab",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
   "id": "g1-katatsumuri",
   "grade": 1,
   "title": "かたつむりの せなか",
@@ -420,6 +435,21 @@
   ]
  },
  {
+  "id": "g1-tako-no-henshin",
+  "grade": 1,
+  "title": "タコの へんしん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 538,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
   "id": "g1-tanabata",
   "grade": 1,
   "title": "たなばたの ねがいごと",
@@ -710,6 +740,22 @@
   ]
  },
  {
+  "id": "g2-kaminari-no-kyori",
+  "grade": 2,
+  "title": "かみなりまでのきょり",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 716,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "vocab"
+  ]
+ },
+ {
   "id": "g2-kani-no-shoubai",
   "grade": 2,
   "title": "蟹のしょうばい",
@@ -930,6 +976,22 @@
    "reason",
    "expression",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g2-sabaku-no-tabi",
+  "grade": 2,
+  "title": "さばくの旅",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 832,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "reason"
   ]
  },
  {
@@ -1261,6 +1323,22 @@
   ]
  },
  {
+  "id": "g3-kurayami-no-umi",
+  "grade": 3,
+  "title": "暗やみの海へ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 900,
+  "qtypes": [
+   "reason",
+   "reason",
+   "vocab",
+   "content",
+   "feeling"
+  ]
+ },
+ {
   "id": "g3-lynx-hoshi-no-chizu-1",
   "grade": 3,
   "title": "星の地図（前編）",
@@ -1446,6 +1524,22 @@
    "reason",
    "content",
    "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-rosetta-stone",
+  "grade": 3,
+  "title": "ロゼッタストーンのなぞ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 882,
+  "qtypes": [
+   "content",
+   "reason",
+   "connective",
+   "content",
    "main-idea"
   ]
  },
@@ -1943,6 +2037,22 @@
   ]
  },
  {
+  "id": "g4-kiri-no-yamamichi",
+  "grade": 4,
+  "title": "きりの山道",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1012,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "reason"
+  ]
+ },
+ {
   "id": "g4-lynx-ongakukai-1",
   "grade": 4,
   "title": "月夜の音楽会（前編）",
@@ -1982,6 +2092,22 @@
    "expression",
    "structure",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g4-nankyoku-kara-no-mail",
+  "grade": 4,
+  "title": "南極からのメール",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1065,
+  "qtypes": [
+   "content",
+   "vocab",
+   "reason",
+   "expression",
+   "reason"
   ]
  },
  {
@@ -2400,6 +2526,22 @@
   ]
  },
  {
+  "id": "g5-kaze-wo-yomu-kikyuu",
+  "grade": 5,
+  "title": "風を読む気球",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1334,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "expression"
+  ]
+ },
+ {
   "id": "g5-kenju-1",
   "grade": 5,
   "title": "虔十公園林（前）",
@@ -2474,6 +2616,22 @@
    "reason",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g5-kura-no-angou",
+  "grade": 5,
+  "title": "蔵の中の暗号",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1516,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
+   "content"
   ]
  },
  {
@@ -3041,6 +3199,22 @@
   ]
  },
  {
+  "id": "g6-gake-no-jikan-ryokou",
+  "grade": 6,
+  "title": "がけの中の時間旅行",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1659,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "reason",
+   "expression"
+  ]
+ },
+ {
   "id": "g6-galileo-1",
   "grade": 6,
   "title": "ガリレオ・ガリレイ（前）",
@@ -3230,6 +3404,22 @@
    "content",
    "content",
    "feeling"
+  ]
+ },
+ {
+  "id": "g6-kage-de-chikyuu",
+  "grade": 6,
+  "title": "影で地球をはかった人",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1763,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "connective",
+   "main-idea"
   ]
  },
  {
