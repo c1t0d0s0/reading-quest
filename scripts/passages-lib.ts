@@ -12,6 +12,7 @@
 //   series: gon 1/3                (続きもののときだけ)
 //   note: 一部をはぶいています       (なくてもよい)
 //   ruby: 兵十=ひょうじゅう, 弥助=やすけ   (自動のふりがながまちがうときの読み。なくてもよい)
+//   revised: 2026-11-10            (公開したあとで問題を直した日。なくてもよい)
 //   ---
 //   本文 (1 行 1 段落。「## 」で始まる行は小見出し。ふりがなは {漢字|かんじ})
 //   ---
@@ -234,6 +235,8 @@ export async function buildPassage(draft: Draft, globalReadings: Map<string, str
     explain: ann(q.explain),
   }));
 
+  if (h.revised !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(h.revised)) fail('revised は「YYYY-MM-DD」の形にしてください (例: 2026-11-10)');
+
   let series: Passage['series'];
   if (h.series) {
     const m = h.series.match(/^([a-z0-9-]+)\s+(\d+)\/(\d+)$/) ?? fail('series は「名前 番号/全部の数」の形にしてください (例: gon 1/3)');
@@ -250,6 +253,7 @@ export async function buildPassage(draft: Draft, globalReadings: Map<string, str
     genre: h.genre as Genre,
     ...(series ? { series } : {}),
     ...(h.note ? { note: h.note } : {}),
+    ...(h.revised ? { revised: h.revised } : {}),
     chars: countChars(body),
     qtypes: questions.map((q) => q.type),
     body,

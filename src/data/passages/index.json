@@ -67,12 +67,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51575.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 650,
   "qtypes": [
    "reason",
    "content",
    "reason",
-   "content"
+   "content",
+   "feeling"
   ]
  },
  {
@@ -97,12 +99,14 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 380,
   "qtypes": [
    "content",
    "reason",
    "expression",
-   "reason"
+   "reason",
+   "feeling"
   ]
  },
  {
@@ -127,11 +131,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 517,
   "qtypes": [
    "content",
    "vocab",
    "reason",
+   "feeling",
    "feeling"
   ]
  },
@@ -157,12 +163,14 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "folktale",
+  "revised": "2026-11-10",
   "chars": 392,
   "qtypes": [
    "content",
    "reason",
    "structure",
-   "main-idea"
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -188,12 +196,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51562.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 638,
   "qtypes": [
    "content",
    "content",
    "content",
-   "structure"
+   "structure",
+   "feeling"
   ]
  },
  {
@@ -203,11 +213,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 390,
   "qtypes": [
    "reason",
    "content",
    "reference",
+   "feeling",
    "feeling"
   ]
  },
@@ -218,12 +230,14 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 412,
   "qtypes": [
    "content",
    "reason",
    "feeling",
-   "main-idea"
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -238,11 +252,13 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 343,
   "qtypes": [
    "content",
    "reason",
-   "content"
+   "content",
+   "feeling"
   ]
  },
  {
@@ -273,12 +289,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51726.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 741,
   "qtypes": [
    "content",
    "reason",
    "content",
-   "main-idea"
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -289,12 +307,29 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51688.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 593,
   "qtypes": [
    "content",
    "feeling",
    "reason",
-   "main-idea"
+   "main-idea",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-mio-komoriuta",
+  "grade": 1,
+  "title": "みおの こもりうた",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 466,
+  "qtypes": [
+   "feeling",
+   "feeling",
+   "content",
+   "feeling"
   ]
  },
  {
@@ -324,6 +359,22 @@
    "content",
    "structure",
    "expression",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-oreta-crayon",
+  "grade": 1,
+  "title": "おれた クレヨン",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 514,
+  "qtypes": [
+   "feeling",
+   "feeling",
+   "reason",
+   "feeling",
    "feeling"
   ]
  },
@@ -411,12 +462,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51578.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 733,
   "qtypes": [
    "content",
    "content",
    "reason",
-   "main-idea"
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -441,11 +494,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 538,
   "qtypes": [
    "content",
    "reason",
    "content",
+   "feeling",
    "feeling"
   ]
  },
@@ -487,12 +542,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51620.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 508,
   "qtypes": [
    "content",
    "content",
    "reason",
-   "expression"
+   "expression",
+   "feeling"
   ]
  },
  {
@@ -517,11 +574,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 380,
   "qtypes": [
    "content",
    "reason",
    "content",
+   "feeling",
    "feeling"
   ]
  },
@@ -532,9 +591,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 511,
   "qtypes": [
-   "content",
+   "feeling",
    "feeling",
    "reason",
    "reason",
@@ -566,11 +626,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4675.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 852,
   "qtypes": [
    "content",
    "reason",
-   "content",
+   "feeling",
    "reason",
    "main-idea"
   ]
@@ -625,6 +686,22 @@
   ]
  },
  {
+  "id": "g2-goro-to-boushi",
+  "grade": 2,
+  "title": "ゴローと黄色いぼうし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 688,
+  "qtypes": [
+   "feeling",
+   "feeling",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
   "id": "g2-hitotsu-no-hi",
   "grade": 2,
   "title": "ひとつの火",
@@ -649,9 +726,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001091/card42316.html",
   "genre": "folktale",
+  "revised": "2026-11-10",
   "chars": 1036,
   "qtypes": [
-   "content",
+   "feeling",
    "structure",
    "reason",
    "content",
@@ -666,9 +744,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4717.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 839,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "content",
@@ -698,9 +777,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 488,
   "qtypes": [
-   "content",
+   "feeling",
    "feeling",
    "content",
    "reason",
@@ -740,18 +820,35 @@
   ]
  },
  {
+  "id": "g2-kakushita-koppu",
+  "grade": 2,
+  "title": "かくしたコップ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 692,
+  "qtypes": [
+   "feeling",
+   "reason",
+   "feeling",
+   "content",
+   "feeling"
+  ]
+ },
+ {
   "id": "g2-kaminari-no-kyori",
   "grade": 2,
   "title": "かみなりまでのきょり",
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 716,
   "qtypes": [
    "reason",
    "content",
    "content",
-   "content",
+   "feeling",
    "vocab"
   ]
  },
@@ -780,11 +877,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4677.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 819,
   "qtypes": [
    "reason",
    "reason",
-   "content",
+   "feeling",
    "expression",
    "feeling"
   ]
@@ -797,11 +895,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4719.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 791,
   "qtypes": [
    "reason",
    "structure",
-   "content",
+   "feeling",
    "reason",
    "expression"
   ]
@@ -855,10 +954,11 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 504,
   "qtypes": [
    "content",
-   "content",
+   "feeling",
    "reason",
    "feeling",
    "main-idea"
@@ -904,12 +1004,13 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4718.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 942,
   "qtypes": [
    "reason",
    "reason",
    "expression",
-   "content",
+   "feeling",
    "main-idea"
   ]
  },
@@ -969,10 +1070,11 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4721.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1044,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "expression",
    "main-idea"
@@ -985,12 +1087,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 832,
   "qtypes": [
    "content",
    "content",
    "reason",
-   "content",
+   "feeling",
    "reason"
   ]
  },
@@ -1002,9 +1105,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4676.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 728,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "content",
    "content",
@@ -1019,12 +1123,14 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4725.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 644,
   "qtypes": [
    "reason",
    "reason",
    "content",
-   "main-idea"
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -1034,13 +1140,14 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 444,
   "qtypes": [
    "reason",
    "structure",
    "feeling",
    "expression",
-   "content"
+   "feeling"
   ]
  },
  {
@@ -1066,9 +1173,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 493,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "expression",
    "reason",
@@ -1099,11 +1207,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card52922.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1204,
   "qtypes": [
    "reason",
    "reason",
-   "reason",
+   "feeling",
    "content",
    "main-idea"
   ]
@@ -1116,9 +1225,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51497.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1061,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "structure",
    "expression",
@@ -1148,10 +1258,11 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "folktale",
+  "revised": "2026-11-10",
   "chars": 709,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "content",
    "reason",
    "main-idea"
@@ -1165,9 +1276,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000293/card43539.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 995,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "content",
    "reason",
@@ -1182,9 +1294,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000096/card46690.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1312,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "reason",
    "content",
@@ -1198,9 +1311,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 772,
   "qtypes": [
-   "reason",
+   "feeling",
    "reason",
    "content",
    "expression",
@@ -1215,9 +1329,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4724.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1362,
   "qtypes": [
-   "reason",
+   "feeling",
    "structure",
    "reason",
    "expression",
@@ -1232,12 +1347,13 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000096/card46694.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1499,
   "qtypes": [
    "reason",
    "reason",
    "content",
-   "content",
+   "feeling",
    "main-idea"
   ]
  },
@@ -1249,9 +1365,10 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000121/card4720.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1102,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "reason",
    "expression",
@@ -1281,10 +1398,11 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 734,
   "qtypes": [
    "content",
-   "content",
+   "feeling",
    "feeling",
    "content",
    "main-idea"
@@ -1371,9 +1489,10 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 740,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "vocab",
    "reason",
@@ -1404,11 +1523,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000329/card18335.html",
   "genre": "folktale",
+  "revised": "2026-11-10",
   "chars": 1596,
   "qtypes": [
    "reason",
    "structure",
-   "reason",
+   "feeling",
    "reason",
    "main-idea"
   ]
@@ -1442,11 +1562,12 @@
    "part": 1,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1228,
   "qtypes": [
    "content",
    "reason",
-   "content",
+   "feeling",
    "structure",
    "reason"
   ]
@@ -1486,11 +1607,12 @@
    "part": 3,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1075,
   "qtypes": [
    "content",
    "reason",
-   "content",
+   "feeling",
    "reason",
    "expression"
   ]
@@ -1518,9 +1640,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 731,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "content",
    "feeling",
@@ -1534,12 +1657,13 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 882,
   "qtypes": [
    "content",
    "reason",
    "connective",
-   "content",
+   "feeling",
    "main-idea"
   ]
  },
@@ -1560,6 +1684,38 @@
   ]
  },
  {
+  "id": "g3-sakubun-happyou",
+  "grade": 3,
+  "title": "ぶたいの上の作文",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 985,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "feeling",
+   "feeling",
+   "content"
+  ]
+ },
+ {
+  "id": "g3-sannin-no-nawatobi",
+  "grade": 3,
+  "title": "三人のなわとび",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 965,
+  "qtypes": [
+   "feeling",
+   "vocab",
+   "feeling",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
   "id": "g3-tebukuro-1",
   "grade": 3,
   "title": "手袋を買いに（一）",
@@ -1572,10 +1728,11 @@
    "part": 1,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1285,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "expression",
    "reason"
@@ -1594,9 +1751,10 @@
    "part": 2,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1433,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "reason",
@@ -1681,9 +1839,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 732,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "feeling",
    "reason",
@@ -1764,10 +1923,11 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1913,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "reason",
    "structure"
@@ -1802,9 +1962,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1054,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "expression",
    "content",
@@ -1818,9 +1979,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1019,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "main-idea",
@@ -1835,11 +1997,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card52052.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1707,
   "qtypes": [
    "expression",
    "content",
-   "content",
+   "feeling",
    "reason",
    "main-idea"
   ]
@@ -1857,11 +2020,12 @@
    "part": 1,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1522,
   "qtypes": [
    "content",
    "reason",
-   "content",
+   "feeling",
    "feeling",
    "structure"
   ]
@@ -1901,10 +2065,11 @@
    "part": 3,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1450,
   "qtypes": [
    "content",
-   "content",
+   "feeling",
    "feeling",
    "reason",
    "main-idea"
@@ -1939,12 +2104,13 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1556,
   "qtypes": [
    "reason",
    "content",
    "reason",
-   "content",
+   "feeling",
    "content"
   ]
  },
@@ -1961,12 +2127,29 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1054,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-hobashira-no-fune",
+  "grade": 4,
+  "title": "ほばしらの折れた船",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1130,
+  "qtypes": [
+   "feeling",
+   "feeling",
+   "feeling",
+   "reason",
    "main-idea"
   ]
  },
@@ -2037,15 +2220,32 @@
   ]
  },
  {
+  "id": "g4-kiniro-no-seal",
+  "grade": 4,
+  "title": "金色のシール",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1106,
+  "qtypes": [
+   "feeling",
+   "feeling",
+   "reason",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
   "id": "g4-kiri-no-yamamichi",
   "grade": 4,
   "title": "きりの山道",
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1012,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "content",
    "content",
@@ -2064,11 +2264,12 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1011,
   "qtypes": [
    "content",
    "content",
-   "reason",
+   "feeling",
    "reason",
    "main-idea"
   ]
@@ -2101,9 +2302,10 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1065,
   "qtypes": [
-   "content",
+   "feeling",
    "vocab",
    "reason",
    "expression",
@@ -2133,11 +2335,12 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1028,
   "qtypes": [
    "reason",
    "reason",
-   "content",
+   "feeling",
    "structure",
    "main-idea"
   ]
@@ -2166,12 +2369,13 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51038.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1831,
   "qtypes": [
    "content",
    "structure",
    "reason",
-   "content",
+   "feeling",
    "main-idea"
   ]
  },
@@ -2188,9 +2392,10 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1899,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "structure",
    "reason",
@@ -2210,10 +2415,11 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1363,
   "qtypes": [
    "structure",
-   "content",
+   "feeling",
    "content",
    "reason",
    "main-idea"
@@ -2275,11 +2481,12 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1002,
   "qtypes": [
    "structure",
    "reason",
-   "content",
+   "feeling",
    "expression",
    "main-idea"
   ]
@@ -2317,6 +2524,22 @@
   ]
  },
  {
+  "id": "g5-aoi-baton",
+  "grade": 5,
+  "title": "青いバトン",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1515,
+  "qtypes": [
+   "feeling",
+   "content",
+   "feeling",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
   "id": "g5-budou-1",
   "grade": 5,
   "title": "一房の葡萄（一）",
@@ -2329,13 +2552,14 @@
    "part": 1,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 2433,
   "qtypes": [
    "reason",
    "content",
    "reason",
    "expression",
-   "content"
+   "feeling"
   ]
  },
  {
@@ -2351,12 +2575,13 @@
    "part": 2,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 2113,
   "qtypes": [
    "reason",
    "reason",
    "feeling",
-   "content",
+   "feeling",
    "content"
   ]
  },
@@ -2439,12 +2664,13 @@
    "part": 1,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1436,
   "qtypes": [
    "content",
    "reason",
    "content",
-   "content",
+   "feeling",
    "reason"
   ]
  },
@@ -2461,11 +2687,12 @@
    "part": 2,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1831,
   "qtypes": [
    "reason",
    "structure",
-   "reason",
+   "feeling",
    "reason",
    "expression"
   ]
@@ -2483,9 +2710,10 @@
    "part": 3,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 2132,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "content",
    "expression",
@@ -2532,11 +2760,12 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1334,
   "qtypes": [
    "reason",
    "content",
-   "content",
+   "feeling",
    "content",
    "expression"
   ]
@@ -2576,11 +2805,12 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 2662,
   "qtypes": [
    "reason",
    "content",
-   "content",
+   "feeling",
    "reason",
    "main-idea"
   ]
@@ -2609,10 +2839,11 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000879/card92.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 2854,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "content",
    "main-idea"
@@ -2789,13 +3020,30 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/001475/card51034.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 2304,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g5-sayonara-ball",
+  "grade": 5,
+  "title": "ウイニングボール",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1365,
+  "qtypes": [
+   "feeling",
+   "reason",
+   "content",
+   "feeling",
+   "feeling"
   ]
  },
  {
@@ -2859,9 +3107,10 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 1926,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "feeling",
@@ -2881,11 +3130,12 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 2398,
   "qtypes": [
    "feeling",
    "reason",
-   "content",
+   "feeling",
    "structure",
    "main-idea"
   ]
@@ -2925,9 +3175,10 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 2682,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "structure",
    "reason",
@@ -2969,9 +3220,10 @@
    "part": 2,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 1542,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "reason",
    "content",
@@ -3057,13 +3309,30 @@
    "part": 3,
    "total": 3
   },
+  "revised": "2026-11-10",
   "chars": 2032,
   "qtypes": [
    "reason",
    "content",
-   "content",
+   "feeling",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g6-anchor-wa-hitori",
+  "grade": 6,
+  "title": "アンカーは一人",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1686,
+  "qtypes": [
+   "content",
+   "feeling",
+   "feeling",
+   "expression",
+   "feeling"
   ]
  },
  {
@@ -3205,10 +3474,11 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1659,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "reason",
    "reason",
    "expression"
@@ -3315,10 +3585,11 @@
    "part": 3,
    "total": 4
   },
+  "revised": "2026-11-10",
   "chars": 3014,
   "qtypes": [
    "reason",
-   "content",
+   "feeling",
    "content",
    "reason",
    "content"
@@ -3337,9 +3608,10 @@
    "part": 4,
    "total": 4
   },
+  "revised": "2026-11-10",
   "chars": 2286,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "content",
@@ -3413,10 +3685,11 @@
   "author": "Reading Quest",
   "source": "original",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 1763,
   "qtypes": [
    "content",
-   "reason",
+   "feeling",
    "reason",
    "connective",
    "main-idea"
@@ -3457,9 +3730,10 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 3666,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "reason",
    "content",
@@ -3480,6 +3754,22 @@
    "content",
    "main-idea",
    "reason"
+  ]
+ },
+ {
+  "id": "g6-obaachan-no-note",
+  "grade": 6,
+  "title": "おばあちゃんのノート",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1790,
+  "qtypes": [
+   "feeling",
+   "expression",
+   "content",
+   "feeling",
+   "feeling"
   ]
  },
  {
@@ -3517,9 +3807,10 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 2841,
   "qtypes": [
-   "content",
+   "feeling",
    "reason",
    "reason",
    "content",
@@ -3539,11 +3830,12 @@
    "part": 1,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 2492,
   "qtypes": [
    "content",
    "reason",
-   "content",
+   "feeling",
    "content",
    "expression"
   ]
@@ -3561,12 +3853,13 @@
    "part": 2,
    "total": 2
   },
+  "revised": "2026-11-10",
   "chars": 3135,
   "qtypes": [
    "structure",
    "content",
    "reason",
-   "content",
+   "feeling",
    "main-idea"
   ]
  },
@@ -3583,9 +3876,10 @@
    "part": 1,
    "total": 4
   },
+  "revised": "2026-11-10",
   "chars": 2337,
   "qtypes": [
-   "content",
+   "feeling",
    "content",
    "reason",
    "reason",
@@ -3627,10 +3921,11 @@
    "part": 3,
    "total": 4
   },
+  "revised": "2026-11-10",
   "chars": 1814,
   "qtypes": [
    "structure",
-   "content",
+   "feeling",
    "reason",
    "content",
    "main-idea"
@@ -3649,10 +3944,11 @@
    "part": 4,
    "total": 4
   },
+  "revised": "2026-11-10",
   "chars": 2883,
   "qtypes": [
    "content",
-   "content",
+   "feeling",
    "feeling",
    "reason",
    "main-idea"
@@ -3710,11 +4006,12 @@
   "source": "aozora",
   "url": "https://www.aozora.gr.jp/cards/000081/card46605.html",
   "genre": "story",
+  "revised": "2026-11-10",
   "chars": 2583,
   "qtypes": [
    "structure",
    "content",
-   "content",
+   "feeling",
    "reason",
    "main-idea"
   ]

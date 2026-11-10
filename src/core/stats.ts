@@ -2,6 +2,15 @@ import type { Grade, PassageMeta, QType } from './reading';
 import { QTYPES } from './reading';
 import type { Progress } from './snapshot';
 
+/**
+ * 文章の問題を直す (revised) より前に保存した答えか。そうなら、今の問題とは合わない
+ * (保存した時刻がない記録も、直す前のものとしてあつかう)
+ */
+export function isStale(p: Progress, meta: Pick<PassageMeta, 'revised'>): boolean {
+  if (!meta.revised) return false;
+  return (p.at ?? 0) < Date.parse(`${meta.revised}T00:00:00+09:00`);
+}
+
 export interface TypeStat {
   type: QType;
   answered: number;
@@ -16,7 +25,7 @@ export function typeStats(progress: Record<string, Progress>, metaOf: (id: strin
   const stats = new Map<QType, TypeStat>(QTYPES.map((t) => [t, { type: t, answered: 0, correct: 0 }]));
   for (const [id, p] of Object.entries(progress)) {
     const meta = metaOf(id);
-    if (!meta) continue;
+    if (!meta || isStale(p, meta)) continue;
     p.ok.forEach((ok, i) => {
       const type = meta.qtypes[i];
       if (ok === null || !type) return;

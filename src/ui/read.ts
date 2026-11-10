@@ -1,5 +1,6 @@
 import { choiceOrder, isHeading, segments, type Grade, type Passage } from '../core/reading';
 import { POINTS_PER_CORRECT, type StampReward } from '../core/rewards';
+import { isStale } from '../core/stats';
 import {
   addDailyClear,
   addStamp,
@@ -116,6 +117,8 @@ function show(root: HTMLElement, p: Passage, opts: ReadOptions): void {
   if (daily && !dailyCleared() && progress?.done) progress = startTry(p.id, p.questions.length);
   // 問題の数が変わっていたら (文章を直したとき)、読み直しにする
   if (progress && progress.answers.length !== p.questions.length) progress = startTry(p.id, p.questions.length);
+  // 問題を直す前の答えは、今の問題とは合わないので、読み直しにする
+  else if (progress && isStale(progress, p)) progress = startTry(p.id, p.questions.length);
   const tries = progress?.tries ?? 0;
   const seed = `${p.id}:${tries}`;
 

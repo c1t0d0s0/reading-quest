@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { choiceOrder, countChars, plain, score, segments } from '../src/core/reading';
-import { recommend, typeStats, weakest } from '../src/core/stats';
+import { isStale, recommend, typeStats, weakest } from '../src/core/stats';
 import { gradeFromSearch } from '../src/core/storage';
 import { alignRuby, parseFile } from '../scripts/passages-lib';
 import { rubyHtml, tcyHtml } from '../src/ui/dom';
@@ -138,6 +138,20 @@ describe('苦手なタイプとおすすめ', () => {
     const reason = stats.find((s) => s.type === 'reason')!;
     expect(reason).toEqual({ type: 'reason', answered: 5, correct: 1 });
     expect(weakest(stats)?.type).toBe('reason');
+  });
+
+  it('問題を直した日 (revised) より前に保存した答えは、古いものとして数えない', () => {
+    const at = (iso: string) => Date.parse(iso);
+    const p = (time?: number) => ({ answers: [0], ok: [true], done: true, tries: 0, ...(time === undefined ? {} : { at: time }) });
+    // 日本時間の 2026-11-10 0:00 = 2026-11-09 15:00 UTC
+    expect(isStale(p(at('2026-11-09T14:59:59Z')), { revised: '2026-11-10' })).toBe(true);
+    expect(isStale(p(at('2026-11-09T15:00:00Z')), { revised: '2026-11-10' })).toBe(false);
+    expect(isStale(p(), { revised: '2026-11-10' })).toBe(true);
+    expect(isStale(p(), {})).toBe(false);
+
+    const revisedMeta = (id: string) => (id === 'g3-a' ? { ...byId(id)!, revised: '2026-11-10' } : byId(id));
+    const stats = typeStats({ 'g3-a': { answers: [0, 1, 1, 0, 0], ok: [true, false, false, true, true], done: true, tries: 0, at: at('2026-11-01T00:00:00Z') } }, revisedMeta);
+    expect(stats.every((s) => s.answered === 0)).toBe(true);
   });
 
   it('続きものの次の回 → 苦手なタイプが多い文章 → まだ読んでいない文章 の順にすすめる', () => {

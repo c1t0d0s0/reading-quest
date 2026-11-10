@@ -43,6 +43,11 @@ export interface PassageMeta {
   series?: { id: string; part: number; total: number };
   /** 「一部をはぶいています」など、出典についてのことわり */
   note?: string;
+  /**
+   * 公開したあとで問題を直した日 (日本時間の YYYY-MM-DD)。
+   * これより前に保存した答えは、今の問題とは合わないので使わない (読み直しにする・きろくに数えない)
+   */
+  revised?: string;
   /** 本文の字数 (ふりがなをのぞく) */
   chars: number;
   /** 問題のタイプ (問題の順) */
