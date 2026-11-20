@@ -15,6 +15,21 @@
   ]
  },
  {
+  "id": "g1-ame-no-uta",
+  "grade": 1,
+  "title": "あめの うた",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 319,
+  "qtypes": [
+   "content",
+   "expression",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g1-ari",
   "grade": 1,
   "title": "ありの ぎょうれつ",
@@ -56,6 +71,21 @@
    "content",
    "expression",
    "feeling",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-donguri-no-ouchi",
+  "grade": 1,
+  "title": "どんぐりの おうち",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 508,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
    "feeling"
   ]
  },
@@ -110,6 +140,21 @@
   ]
  },
  {
+  "id": "g1-hiyoko",
+  "grade": 1,
+  "title": "ひよこが 生まれるまで",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 427,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "structure"
+  ]
+ },
+ {
   "id": "g1-jidosha",
   "grade": 1,
   "title": "はたらく 車",
@@ -122,6 +167,51 @@
    "reason",
    "content",
    "structure"
+  ]
+ },
+ {
+  "id": "g1-kao-wo-tsuketa",
+  "grade": 1,
+  "title": "かおを つけたよ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 443,
+  "qtypes": [
+   "reason",
+   "content",
+   "structure",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-karasu-no-chie",
+  "grade": 1,
+  "title": "かしこい からす",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 435,
+  "qtypes": [
+   "content",
+   "reason",
+   "connective",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g1-kasa-jizou",
+  "grade": 1,
+  "title": "かさじぞう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 560,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "content"
   ]
  },
  {
@@ -174,6 +264,21 @@
   ]
  },
  {
+  "id": "g1-kirin-no-kubi",
+  "grade": 1,
+  "title": "きりんの ながい くび",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 427,
+  "qtypes": [
+   "content",
+   "content",
+   "connective",
+   "content"
+  ]
+ },
+ {
   "id": "g1-kitsune-no-kasa",
   "grade": 1,
   "title": "きつねの かさ",
@@ -185,6 +290,21 @@
    "content",
    "reason",
    "feeling",
+   "structure"
+  ]
+ },
+ {
+  "id": "g1-koala-no-akachan",
+  "grade": 1,
+  "title": "コアラの 赤ちゃん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 463,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
    "structure"
   ]
  },
@@ -207,6 +327,36 @@
   ]
  },
  {
+  "id": "g1-koinu-no-sanpo",
+  "grade": 1,
+  "title": "こいぬの モモ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 491,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-kuchibashi",
+  "grade": 1,
+  "title": "いろいろな くちばし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 409,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g1-kuma-hachimitsu",
   "grade": 1,
   "title": "くまさんの はちみつ",
@@ -221,6 +371,36 @@
    "reference",
    "feeling",
    "feeling"
+  ]
+ },
+ {
+  "id": "g1-kumo-no-katachi",
+  "grade": 1,
+  "title": "くもの かたち",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 498,
+  "qtypes": [
+   "content",
+   "expression",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-kuttsuku-tane",
+  "grade": 1,
+  "title": "くっつく たね",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 502,
+  "qtypes": [
+   "content",
+   "reason",
+   "connective",
+   "content"
   ]
  },
  {
@@ -282,6 +462,21 @@
   ]
  },
  {
+  "id": "g1-lynx-yukidaruma",
+  "grade": 1,
+  "title": "リンクと ゆきだるま",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 488,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content"
+  ]
+ },
+ {
   "id": "g1-maru-wa-shiawase",
   "grade": 1,
   "title": "マルは しあわせ",
@@ -333,6 +528,21 @@
   ]
  },
  {
+  "id": "g1-mogura-no-don",
+  "grade": 1,
+  "title": "もぐらの ドン",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 492,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "expression"
+  ]
+ },
+ {
   "id": "g1-mushi-kakurenbo",
   "grade": 1,
   "title": "虫の かくれんぼ",
@@ -345,6 +555,36 @@
    "content",
    "expression",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g1-nawatobi",
+  "grade": 1,
+  "title": "なわとび 十かい",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 508,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-omusubi-kororin",
+  "grade": 1,
+  "title": "おむすび ころりん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 554,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content"
   ]
  },
  {
@@ -375,6 +615,21 @@
    "feeling",
    "reason",
    "feeling",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-otoshimono",
+  "grade": 1,
+  "title": "赤い 手ぶくろ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 477,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
    "feeling"
   ]
  },
@@ -437,6 +692,21 @@
    "connective",
    "reason",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g1-sakura-no-ichinen",
+  "grade": 1,
+  "title": "さくらの 木の 一年",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 412,
+  "qtypes": [
+   "content",
+   "expression",
+   "content",
+   "content"
   ]
  },
  {
@@ -553,6 +823,21 @@
   ]
  },
  {
+  "id": "g1-usagi-to-kame",
+  "grade": 1,
+  "title": "うさぎと かめ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 486,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "feeling"
+  ]
+ },
+ {
   "id": "g1-yasai-doko",
   "grade": 1,
   "title": "やさいの どこを 食べて いるの",
@@ -581,6 +866,21 @@
    "reason",
    "content",
    "feeling",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g1-yuuyake",
+  "grade": 1,
+  "title": "ゆうやけの いろ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 479,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
    "feeling"
   ]
  },
@@ -637,6 +937,21 @@
   ]
  },
  {
+  "id": "g2-boku-no-naegi",
+  "grade": 2,
+  "title": "ぼくのなえ木",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 636,
+  "qtypes": [
+   "content",
+   "vocab",
+   "feeling",
+   "content"
+  ]
+ },
+ {
   "id": "g2-dangomushi",
   "grade": 2,
   "title": "ダンゴムシのくらし",
@@ -650,6 +965,36 @@
    "content",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g2-doronko",
+  "grade": 2,
+  "title": "どろんこ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 447,
+  "qtypes": [
+   "content",
+   "expression",
+   "feeling",
+   "content"
+  ]
+ },
+ {
+  "id": "g2-furuya-no-mori",
+  "grade": 2,
+  "title": "ふるやのもり",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 663,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "expression"
   ]
  },
  {
@@ -702,6 +1047,81 @@
   ]
  },
  {
+  "id": "g2-hajimete-no-taiko",
+  "grade": 2,
+  "title": "はじめてのたいこ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 677,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-hanabi-no-iro",
+  "grade": 2,
+  "title": "花火の色のひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 609,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "reference"
+  ]
+ },
+ {
+  "id": "g2-hatake-no-ojiichan",
+  "grade": 2,
+  "title": "おじいちゃんの畑",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 647,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g2-hikkoshi-no-hi",
+  "grade": 2,
+  "title": "ひっこしの日",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 613,
+  "qtypes": [
+   "content",
+   "feeling",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g2-himawari",
+  "grade": 2,
+  "title": "ひまわりと太陽",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 562,
+  "qtypes": [
+   "content",
+   "reason",
+   "connective",
+   "reason"
+  ]
+ },
+ {
   "id": "g2-hitotsu-no-hi",
   "grade": 2,
   "title": "ひとつの火",
@@ -751,6 +1171,21 @@
    "content",
    "reason",
    "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g2-ika-to-tako",
+  "grade": 2,
+  "title": "イカのすみとタコのすみ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 530,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
    "main-idea"
   ]
  },
@@ -870,6 +1305,21 @@
   ]
  },
  {
+  "id": "g2-kaze-no-yuubin",
+  "grade": 2,
+  "title": "風のゆうびんやさん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 594,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reference"
+  ]
+ },
+ {
   "id": "g2-kitsune-no-tsukai",
   "grade": 2,
   "title": "狐のつかい",
@@ -888,6 +1338,21 @@
   ]
  },
  {
+  "id": "g2-kitsune-to-tsuru",
+  "grade": 2,
+  "title": "きつねとつるのごちそう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 660,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g2-kyonen-no-ki",
   "grade": 2,
   "title": "去年の木",
@@ -903,6 +1368,21 @@
    "feeling",
    "reason",
    "expression"
+  ]
+ },
+ {
+  "id": "g2-lynx-omatsuri",
+  "grade": 2,
+  "title": "リンクと森のおまつり",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 658,
+  "qtypes": [
+   "feeling",
+   "content",
+   "reason",
+   "main-idea"
   ]
  },
  {
@@ -962,6 +1442,36 @@
    "reason",
    "feeling",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g2-maigo-no-kuma",
+  "grade": 2,
+  "title": "まいごのくまさん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 605,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g2-mayu-kara-ito",
+  "grade": 2,
+  "title": "まゆから糸へ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 567,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "structure"
   ]
  },
  {
@@ -1081,6 +1591,36 @@
   ]
  },
  {
+  "id": "g2-panda",
+  "grade": 2,
+  "title": "パンダの一日",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 590,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason"
+  ]
+ },
+ {
+  "id": "g2-rakko",
+  "grade": 2,
+  "title": "ラッコのくらし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 600,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "structure"
+  ]
+ },
+ {
   "id": "g2-sabaku-no-tabi",
   "grade": 2,
   "title": "さばくの旅",
@@ -1134,6 +1674,21 @@
   ]
  },
  {
+  "id": "g2-tamagoyaki",
+  "grade": 2,
+  "title": "あまいたまごやき",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 633,
+  "qtypes": [
+   "content",
+   "content",
+   "connective",
+   "reason"
+  ]
+ },
+ {
   "id": "g2-teruteru",
   "grade": 2,
   "title": "てるてるぼうずのねがい",
@@ -1151,6 +1706,21 @@
   ]
  },
  {
+  "id": "g2-tonbo-no-me",
+  "grade": 2,
+  "title": "トンボの目のひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 581,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "vocab"
+  ]
+ },
+ {
   "id": "g2-tori-no-su",
   "grade": 2,
   "title": "鳥のすづくり",
@@ -1164,6 +1734,36 @@
    "reason",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g2-warashibe",
+  "grade": 2,
+  "title": "わらしべ長者",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 750,
+  "qtypes": [
+   "content",
+   "reason",
+   "structure",
+   "reason"
+  ]
+ },
+ {
+  "id": "g2-yoru-no-doubutsuen",
+  "grade": 2,
+  "title": "夜の動物園",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 653,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling"
   ]
  },
  {
@@ -1196,6 +1796,22 @@
    "structure",
    "content",
    "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-aisatsu-no-kotoba",
+  "grade": 3,
+  "title": "あいさつの言葉のひみつ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 749,
+  "qtypes": [
+   "content",
+   "reason",
+   "vocab",
+   "content",
    "main-idea"
   ]
  },
@@ -1236,6 +1852,22 @@
   ]
  },
  {
+  "id": "g3-asa-no-oto",
+  "grade": 3,
+  "title": "朝の音",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 706,
+  "qtypes": [
+   "expression",
+   "content",
+   "structure",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g3-chizu-kigou",
   "grade": 3,
   "title": "地図記号のなりたち",
@@ -1249,6 +1881,38 @@
    "reason",
    "content",
    "structure"
+  ]
+ },
+ {
+  "id": "g3-fabre",
+  "grade": 3,
+  "title": "虫の本を書いた人　ファーブル",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 897,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-fushigi-na-post",
+  "grade": 3,
+  "title": "赤いポストの手紙",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 897,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
+   "feeling"
   ]
  },
  {
@@ -1287,6 +1951,22 @@
   ]
  },
  {
+  "id": "g3-himitsu-kichi",
+  "grade": 3,
+  "title": "竹林のひみつ基地",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 753,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "expression"
+  ]
+ },
+ {
   "id": "g3-inu-no-ousama",
   "grade": 3,
   "title": "犬の王様",
@@ -1302,6 +1982,54 @@
    "reason",
    "content",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kabutomushi",
+  "grade": 3,
+  "title": "カブトムシの一生",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 755,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-kasa-wo-kashita-hi",
+  "grade": 3,
+  "title": "かさを貸した日",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 749,
+  "qtypes": [
+   "content",
+   "feeling",
+   "content",
+   "main-idea",
+   "reason"
+  ]
+ },
+ {
+  "id": "g3-kendama",
+  "grade": 3,
+  "title": "けん玉の「もしかめ」",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 787,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "expression",
+   "feeling"
   ]
  },
  {
@@ -1358,6 +2086,22 @@
   ]
  },
  {
+  "id": "g3-kobutori",
+  "grade": 3,
+  "title": "こぶとりじいさん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 963,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "feeling",
+   "reason"
+  ]
+ },
+ {
   "id": "g3-kodomo-no-suki-na-kamisama",
   "grade": 3,
   "title": "子どものすきな神さま",
@@ -1392,6 +2136,22 @@
   ]
  },
  {
+  "id": "g3-konchu-no-karada",
+  "grade": 3,
+  "title": "こん虫の体",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 820,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g3-koneko",
   "grade": 3,
   "title": "雨の日の子ねこ",
@@ -1422,6 +2182,22 @@
    "feeling",
    "content",
    "expression"
+  ]
+ },
+ {
+  "id": "g3-kumo-no-dekikata",
+  "grade": 3,
+  "title": "雲はどうしてできるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 731,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reference",
+   "main-idea"
   ]
  },
  {
@@ -1516,6 +2292,22 @@
   ]
  },
  {
+  "id": "g3-mushiba",
+  "grade": 3,
+  "title": "むし歯はどうしてできるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 755,
+  "qtypes": [
+   "content",
+   "content",
+   "content",
+   "reason",
+   "connective"
+  ]
+ },
+ {
   "id": "g3-nezumi-no-yomeiri",
   "grade": 3,
   "title": "ねずみの嫁入り",
@@ -1546,6 +2338,38 @@
    "feeling",
    "reason",
    "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g3-obake-yashiki",
+  "grade": 3,
+  "title": "空き家のおばけ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 848,
+  "qtypes": [
+   "content",
+   "expression",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g3-ojiichan-no-radio",
+  "grade": 3,
+  "title": "おじいちゃんのラジオ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 738,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "vocab",
    "main-idea"
   ]
  },
@@ -1615,6 +2439,22 @@
    "feeling",
    "reason",
    "expression"
+  ]
+ },
+ {
+  "id": "g3-oshougatsu",
+  "grade": 3,
+  "title": "お正月のかざりのいみ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 810,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "vocab",
+   "main-idea"
   ]
  },
  {
@@ -1700,6 +2540,22 @@
   ]
  },
  {
+  "id": "g3-sanmai-no-ofuda",
+  "grade": 3,
+  "title": "三まいのおふだ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 905,
+  "qtypes": [
+   "content",
+   "content",
+   "structure",
+   "reason",
+   "reason"
+  ]
+ },
+ {
   "id": "g3-sannin-no-nawatobi",
   "grade": 3,
   "title": "三人のなわとび",
@@ -1713,6 +2569,22 @@
    "feeling",
    "reason",
    "feeling"
+  ]
+ },
+ {
+  "id": "g3-suki-na-oto",
+  "grade": 3,
+  "title": "わたしの好きな音",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 751,
+  "qtypes": [
+   "content",
+   "expression",
+   "reason",
+   "content",
+   "main-idea"
   ]
  },
  {
@@ -1784,6 +2656,38 @@
   ]
  },
  {
+  "id": "g3-tenji",
+  "grade": 3,
+  "title": "点字のしくみ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 848,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "structure"
+  ]
+ },
+ {
+  "id": "g3-tenkousei",
+  "grade": 3,
+  "title": "マリアさんのおべんとう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 885,
+  "qtypes": [
+   "content",
+   "content",
+   "feeling",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g3-tsuki-no-katachi",
   "grade": 3,
   "title": "月の形がかわるわけ",
@@ -1814,6 +2718,22 @@
    "content",
    "feeling",
    "reason"
+  ]
+ },
+ {
+  "id": "g3-umigame",
+  "grade": 3,
+  "title": "ウミガメのたびだち",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 748,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "reference",
+   "connective"
   ]
  },
  {
@@ -1911,6 +2831,22 @@
   ]
  },
  {
+  "id": "g4-basutei",
+  "grade": 4,
+  "title": "バス停のベンチ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1004,
+  "qtypes": [
+   "content",
+   "expression",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
   "id": "g4-chiisai-tarou-1",
   "grade": 4,
   "title": "小さい太郎の悲しみ（前）",
@@ -1987,6 +2923,38 @@
    "reason",
    "main-idea",
    "structure"
+  ]
+ },
+ {
+  "id": "g4-fuuryoku",
+  "grade": 4,
+  "title": "風で電気をつくる",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1070,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "connective",
+   "reason"
+  ]
+ },
+ {
+  "id": "g4-gairai-seibutsu",
+  "grade": 4,
+  "title": "外から来た生き物",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1200,
+  "qtypes": [
+   "content",
+   "reason",
+   "main-idea",
+   "content",
+   "content"
   ]
  },
  {
@@ -2092,6 +3060,22 @@
   ]
  },
  {
+  "id": "g4-hakubutsukan",
+  "grade": 4,
+  "title": "きょうりゅうの骨と祖父",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1102,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "main-idea",
+   "feeling"
+  ]
+ },
+ {
   "id": "g4-hirame-no-gakkou-1",
   "grade": 4,
   "title": "ひらめの学校（前）",
@@ -2170,6 +3154,38 @@
   ]
  },
  {
+  "id": "g4-jishin",
+  "grade": 4,
+  "title": "地震はどうして起こるの",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1164,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-jiyuu-kenkyuu",
+  "grade": 4,
+  "title": "消えた水のゆくえ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1173,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "content"
+  ]
+ },
+ {
   "id": "g4-kame-no-koura",
   "grade": 4,
   "title": "カメのこうらのひみつ",
@@ -2199,6 +3215,22 @@
    "reason",
    "feeling",
    "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-ki-no-uta",
+  "grade": 4,
+  "title": "一本の木",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 1020,
+  "qtypes": [
+   "expression",
+   "expression",
+   "content",
+   "expression",
    "main-idea"
   ]
  },
@@ -2253,6 +3285,22 @@
   ]
  },
  {
+  "id": "g4-kotowaza",
+  "grade": 4,
+  "title": "ことわざのふしぎ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1162,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g4-lynx-ongakukai-1",
   "grade": 4,
   "title": "月夜の音楽会（前編）",
@@ -2296,6 +3344,38 @@
   ]
  },
  {
+  "id": "g4-maguro",
+  "grade": 4,
+  "title": "マグロは泳ぎつづける",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1015,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-maigo-inu",
+  "grade": 4,
+  "title": "コタロウをさがして",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1064,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g4-nankyoku-kara-no-mail",
   "grade": 4,
   "title": "南極からのメール",
@@ -2310,6 +3390,38 @@
    "reason",
    "expression",
    "reason"
+  ]
+ },
+ {
+  "id": "g4-nenrin",
+  "grade": 4,
+  "title": "木の年輪が語ること",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1151,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-noguchi-hideyo",
+  "grade": 4,
+  "title": "野口英世",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 1171,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "feeling",
+   "main-idea"
   ]
  },
  {
@@ -2359,6 +3471,22 @@
    "content",
    "reason",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g4-piano",
+  "grade": 4,
+  "title": "発表会の前の日",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1093,
+  "qtypes": [
+   "content",
+   "feeling",
+   "content",
+   "main-idea",
+   "feeling"
   ]
  },
  {
@@ -2422,6 +3550,70 @@
    "feeling",
    "content",
    "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-seiza",
+  "grade": 4,
+  "title": "北極星をさがそう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1017,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "content",
+   "reference"
+  ]
+ },
+ {
+  "id": "g4-shougi",
+  "grade": 4,
+  "title": "負けました",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1132,
+  "qtypes": [
+   "content",
+   "feeling",
+   "content",
+   "main-idea",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g4-shoutengai",
+  "grade": 4,
+  "title": "ぼくの町の商店街",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1091,
+  "qtypes": [
+   "reason",
+   "content",
+   "main-idea",
+   "feeling",
+   "structure"
+  ]
+ },
+ {
+  "id": "g4-shuwa",
+  "grade": 4,
+  "title": "手話という言葉",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1045,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "content",
    "main-idea"
   ]
  },
@@ -2492,6 +3684,22 @@
   ]
  },
  {
+  "id": "g4-urashima",
+  "grade": 4,
+  "title": "浦島太郎",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "folktale",
+  "chars": 1211,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "feeling"
+  ]
+ },
+ {
   "id": "g4-washi",
   "grade": 4,
   "title": "千年もつ紙",
@@ -2504,6 +3712,22 @@
    "structure",
    "reason",
    "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g4-watashi-no-namae",
+  "grade": 4,
+  "title": "わたしの名前",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1052,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "reference",
    "main-idea"
   ]
  },
@@ -2521,6 +3745,38 @@
    "reason",
    "content",
    "expression"
+  ]
+ },
+ {
+  "id": "g4-yukiguni",
+  "grade": 4,
+  "title": "雪国のおばあちゃん",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1087,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "main-idea",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-ame-no-hi-no-tanoshimi",
+  "grade": 5,
+  "title": "雨の日の楽しみ方",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1304,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
+   "main-idea"
   ]
  },
  {
@@ -2721,6 +3977,38 @@
   ]
  },
  {
+  "id": "g5-dashi-to-umami",
+  "grade": 5,
+  "title": "だしとうま味",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1317,
+  "qtypes": [
+   "content",
+   "content",
+   "vocab",
+   "reason",
+   "reason"
+  ]
+ },
+ {
+  "id": "g5-furui-hon",
+  "grade": 5,
+  "title": "図書館の古い本",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1337,
+  "qtypes": [
+   "reason",
+   "content",
+   "feeling",
+   "main-idea",
+   "feeling"
+  ]
+ },
+ {
   "id": "g5-gasshou",
   "grade": 5,
   "title": "ソプラノの席",
@@ -2733,6 +4021,54 @@
    "feeling",
    "content",
    "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-haru-no-asa",
+  "grade": 5,
+  "title": "卒業式の朝",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 1355,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-hazard-map",
+  "grade": 5,
+  "title": "ハザードマップを読む",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1384,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-hyakunen-mae-no-tegami",
+  "grade": 5,
+  "title": "百年前の手紙",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1335,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
    "main-idea"
   ]
  },
@@ -2754,6 +4090,22 @@
   ]
  },
  {
+  "id": "g5-jikoku-no-kimekata",
+  "grade": 5,
+  "title": "時刻はどうやって決まったのか",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1344,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g5-kaze-wo-yomu-kikyuu",
   "grade": 5,
   "title": "風を読む気球",
@@ -2768,6 +4120,22 @@
    "feeling",
    "content",
    "expression"
+  ]
+ },
+ {
+  "id": "g5-keigo",
+  "grade": 5,
+  "title": "敬語のはたらき",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1319,
+  "qtypes": [
+   "content",
+   "vocab",
+   "content",
+   "reason",
+   "main-idea"
   ]
  },
  {
@@ -2826,6 +4194,22 @@
   "qtypes": [
    "content",
    "expression",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-kougousei",
+  "grade": 5,
+  "title": "葉っぱの中の小さな工場",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1320,
+  "qtypes": [
+   "content",
+   "content",
    "content",
    "reason",
    "main-idea"
@@ -3031,6 +4415,38 @@
   ]
  },
  {
+  "id": "g5-rinkan-gakkou",
+  "grade": 5,
+  "title": "林間学校の夜",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1347,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-ryoushi-no-jiichan",
+  "grade": 5,
+  "title": "海を読む人",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1314,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g5-sayonara-ball",
   "grade": 5,
   "title": "ウイニングボール",
@@ -3063,6 +4479,38 @@
   ]
  },
  {
+  "id": "g5-shippai-kara-hatsumei",
+  "grade": 5,
+  "title": "失敗から生まれた発明",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1399,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-shippai-no-nouto",
+  "grade": 5,
+  "title": "失敗ノート",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1334,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g5-shokuhin-loss",
   "grade": 5,
   "title": "まだ食べられるのに",
@@ -3074,6 +4522,22 @@
    "vocab",
    "content",
    "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-shokunin-no-te",
+  "grade": 5,
+  "title": "職人の手",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1311,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
    "reason",
    "main-idea"
   ]
@@ -3091,6 +4555,70 @@
    "content",
    "feeling",
    "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-sofu-no-shashin",
+  "grade": 5,
+  "title": "写真の中の祖父",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1379,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-sugita-genpaku",
+  "grade": 5,
+  "title": "杉田玄白と解体新書",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 1520,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-tenkou-no-hi",
+  "grade": 5,
+  "title": "転校の日のクラス新聞",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1355,
+  "qtypes": [
+   "feeling",
+   "content",
+   "reason",
+   "reason",
+   "feeling"
+  ]
+ },
+ {
+  "id": "g5-tonari-no-rival",
+  "grade": 5,
+  "title": "となりの席のライバル",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1318,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
    "main-idea"
   ]
  },
@@ -3137,6 +4665,38 @@
    "reason",
    "feeling",
    "structure",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-tsuda-umeko",
+  "grade": 5,
+  "title": "津田梅子",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 1386,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g5-universal-design",
+  "grade": 5,
+  "title": "だれにとっても使いやすく",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1392,
+  "qtypes": [
+   "reason",
+   "content",
+   "content",
+   "content",
    "main-idea"
   ]
  },
@@ -3336,6 +4896,38 @@
   ]
  },
  {
+  "id": "g6-awanai-haguruma",
+  "grade": 6,
+  "title": "かみ合わない歯車",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1683,
+  "qtypes": [
+   "content",
+   "feeling",
+   "reason",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-bokura-no-chizu",
+  "grade": 6,
+  "title": "ぼくらの地図",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "poem",
+  "chars": 1613,
+  "qtypes": [
+   "expression",
+   "reason",
+   "feeling",
+   "main-idea",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g6-curie-1",
   "grade": 6,
   "title": "キュリー夫人（前）",
@@ -3424,6 +5016,22 @@
   ]
  },
  {
+  "id": "g6-dokusho-to-souzou",
+  "grade": 6,
+  "title": "本の中の景色",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1634,
+  "qtypes": [
+   "content",
+   "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g6-donguri-1",
   "grade": 6,
   "title": "どんぐりと山猫（前）",
@@ -3465,6 +5073,22 @@
    "main-idea",
    "content",
    "feeling"
+  ]
+ },
+ {
+  "id": "g6-fair-trade",
+  "grade": 6,
+  "title": "チョコレートの向こう側",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1647,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
+   "main-idea"
   ]
  },
  {
@@ -3679,6 +5303,38 @@
   ]
  },
  {
+  "id": "g6-intai-jiai",
+  "grade": 6,
+  "title": "最後の試合",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1670,
+  "qtypes": [
+   "content",
+   "feeling",
+   "expression",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-joumon",
+  "grade": 6,
+  "title": "縄文の人々のくらし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1613,
+  "qtypes": [
+   "content",
+   "reason",
+   "vocab",
+   "content",
+   "reason"
+  ]
+ },
+ {
   "id": "g6-kage-de-chikyuu",
   "grade": 6,
   "title": "影で地球をはかった人",
@@ -3693,6 +5349,22 @@
    "reason",
    "connective",
    "main-idea"
+  ]
+ },
+ {
+  "id": "g6-kitasato",
+  "grade": 6,
+  "title": "北里柴三郎",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 1671,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "vocab",
+   "reason"
   ]
  },
  {
@@ -3735,6 +5407,22 @@
   "qtypes": [
    "feeling",
    "reason",
+   "reason",
+   "content",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-matsuri-wo-uketsugu",
+  "grade": 6,
+  "title": "祭りを受けつぐ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "essay",
+  "chars": 1630,
+  "qtypes": [
+   "content",
+   "content",
    "reason",
    "content",
    "main-idea"
@@ -3818,6 +5506,22 @@
   ]
  },
  {
+  "id": "g6-ondanka",
+  "grade": 6,
+  "title": "地球温暖化のしくみ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1699,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
   "id": "g6-otsuberu-1",
   "grade": 6,
   "title": "オツベルと象（前）",
@@ -3859,6 +5563,102 @@
    "structure",
    "content",
    "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-rachel-carson",
+  "grade": 6,
+  "title": "『沈黙の春』を書いた人",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "biography",
+  "chars": 1684,
+  "qtypes": [
+   "content",
+   "reason",
+   "content",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-saigo-no-page",
+  "grade": 6,
+  "title": "最後のページ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1618,
+  "qtypes": [
+   "content",
+   "reason",
+   "feeling",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-senkyo",
+  "grade": 6,
+  "title": "一票の重さ",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1685,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "connective",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-sokai",
+  "grade": 6,
+  "title": "祖母の疎開",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1704,
+  "qtypes": [
+   "reason",
+   "feeling",
+   "reason",
+   "expression",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-suidou",
+  "grade": 6,
+  "title": "じゃ口の向こう側",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1700,
+  "qtypes": [
+   "content",
+   "vocab",
+   "structure",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-tokei-shokunin",
+  "grade": 6,
+  "title": "止まった時計",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1646,
+  "qtypes": [
+   "reason",
+   "reason",
+   "content",
    "feeling",
    "main-idea"
   ]
@@ -3955,6 +5755,54 @@
   ]
  },
  {
+  "id": "g6-toudai-no-shima",
+  "grade": 6,
+  "title": "灯台のある島",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1669,
+  "qtypes": [
+   "content",
+   "content",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-uchuu-station",
+  "grade": 6,
+  "title": "宇宙ステーションのくらし",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1605,
+  "qtypes": [
+   "content",
+   "reason",
+   "expression",
+   "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-umibe-no-asa",
+  "grade": 6,
+  "title": "海辺の朝のごみ拾い",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1653,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "main-idea",
+   "expression"
+  ]
+ },
+ {
   "id": "g6-utadokei-1",
   "grade": 6,
   "title": "うた時計（前）",
@@ -4013,6 +5861,38 @@
    "content",
    "feeling",
    "reason",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-yumi-wo-hiku",
+  "grade": 6,
+  "title": "的の向こう",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "story",
+  "chars": 1621,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "feeling",
+   "main-idea"
+  ]
+ },
+ {
+  "id": "g6-zero-no-hakken",
+  "grade": 6,
+  "title": "ゼロの発見",
+  "author": "Reading Quest",
+  "source": "original",
+  "genre": "explain",
+  "chars": 1689,
+  "qtypes": [
+   "reason",
+   "content",
+   "reason",
+   "content",
    "main-idea"
   ]
  }
